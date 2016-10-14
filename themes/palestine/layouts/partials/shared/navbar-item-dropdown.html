@@ -1,0 +1,13 @@
+{{ $currentNode := .currentnode }}
+<li class="nav-item">
+  <div class="btn-group{{if .currentnode.IsMenuCurrent "navbar" .navitem}} active{{end}}">
+    <button type="button" class="btn dropdown-toggle  p-l-0 m-l-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="text-xs-left">{{ .navitem.Name }}</span>
+    </button>
+    <div class="dropdown-menu">
+      {{ range .navitem.Children }}
+        <a class="dropdown-item{{if $currentNode.HasMenuCurrent "navbar" . }} active{{end}}" href="{{ .URL | safeURL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </div>
+</li>

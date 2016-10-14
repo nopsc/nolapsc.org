@@ -1,0 +1,142 @@
+baseurl = "https://nolapsc.org/"
+languageCode = "en-us"
+title = "New Orleans Palestinian Solidarity Committee"
+author = "Marvin Arnold"
+theme = "palestine"
+DefaultContentLanguage = "en"
+copyright = "BDS & MIT"
+DefaultContentLanguageInSubdir = true # Do not remove or language links will break
+
+[Languages]
+  [Languages.en]
+    weight = 1
+    title = "New Orleans Palestinian Solidarity Committee"
+    languageName = "English"
+
+    [[Languages.en.menu.navbar]]
+      identifier = "about"
+      url = "/en/"
+      name   = "About NOPSC"
+      weight = 1
+
+    [[Languages.en.menu.navbar]]
+      parent = "about"
+      url = "/en/#mission"
+      name   = "Mission"
+      weight = 2
+
+    [[Languages.en.menu.navbar]]
+      parent = "about"
+      url = "/en/#issues"
+      name   = "Issues"
+      weight = 3
+
+    [[Languages.en.menu.navbar]]
+      parent = "about"
+      url = "/en/#petition"
+      name   = "Do Something"
+      weight = 4
+
+    [Languages.en.banner]
+      teaser = "It is the mission of the"
+      title = "New Orleans Palestinian Solidarity Committee"
+      subtitle = "to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
+      action = "Take action"
+      actionLink = "/en/#petition"
+
+    [[Languages.en.issues]]
+      title = "Palestinian Liberation"
+      src = "/img/home/issues/liberation.jpg"
+      subtitle = "The Palestinian people have a right to self-determination and are deserved of full human rights."
+
+    [[Languages.en.issues]]
+      title = "Multicultural Solidarity"
+      src = "/img/home/issues/multicultural.jpg"
+      subtitle = "There is no place for discrimination in our movement because none of us will be free until all of us are free."
+
+    [[Languages.en.issues]]
+      title = "Black-Palestinian Solidarity"
+      src = "/img/home/issues/blacks.jpg"
+      subtitle = "Current struggles exist on a spectrum that must begin with and prioritize anti-Black racism."
+
+    [[Languages.en.issues]]
+      title = "Middle East Human Rights"
+      src = "/img/home/issues/middle-east.jpg"
+      subtitle = "The same colonial remnants that impact daily life in Palestine are those which have lead to turmoil in places like Syria and Lebanon."
+
+    [[Languages.en.issues]]
+      title = "Palestinian Right of Return"
+      src = "/img/home/issues/return.jpg"
+      subtitle = "Nearly one million Palestinians and their descendants were displaced as a result of the 1948 massacre."
+
+    [[Languages.en.issues]]
+      title = "Boycott, Divestment, and Sanctions (BDS)"
+      src = "/img/home/issues/bds.jpg"
+      subtitle = "BDS has worked successfully for the South African Anti-Apartheid and US Civil Rights movements."
+
+    [Languages.en.petition]
+      title = "Petition the New Orleans City Counsel"
+      subtitle = """The City of New Orleans should use the full extent of the law to seek competitive suppliers of goods and services who do not have investments, licenses or operations in Israel.
+
+New Orleans is a social justice city that should no longer support segregation or racism. With your support, we can make New Orleans an Apartheid-Free City."""
+      name = "Name"
+      email = "Email"
+      zip = "ZIP"
+      mail = "Mailing list opt-in"
+
+    [Languages.en.experience]
+      title = "Experience NOPSC"
+      firstItemSrc = "/img/home/experiences/nopsc1.png"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc2.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc3.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc4.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc5.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc6.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc7.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc8.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc9.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/nopsc10.jpg"
+
+    [Languages.en.newsletter]
+      title = "Stay involved"
+      subtitle = "Get notified about our meetings, actions, and other ways for you to get involved."
+      email = "Email"
+      tip = "Only important stuff. Really."
+      button = "Sign up"
+
+    [Languages.en.do]
+      title = "Don't just sit there"
+      subtitle = "Do something."
+      newsletterEmail = "Email"
+      newsletterTip = "Only important stuff. Really."
+      newsletterButton = "Sign up"
+
+    [Languages.en.footer]
+      title = "a"
+
+    [Languages.en.donate]
+      title = "donate"
+
+  [Languages.ar]
+    weight = 2
+    title = "Title in Arabic"
+    languageName = "العربية"
+    description = "Arabic is the mission of the New Orleans Palestinian Solidarity Committee to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
