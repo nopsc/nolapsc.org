@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services-rsses on New Orleans Palestinian Solidarity Committee</title>
-    <link>localhost/en/services/index.xml</link>
+    <link>https://nolapsc.org/en/services/index.xml</link>
     <description>Recent content in Services-rsses on New Orleans Palestinian Solidarity Committee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>BDS &amp; MIT</copyright>
     <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
-    <atom:link href="localhost/en/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nolapsc.org/en/services/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Services</title>
-      <link>/localhost/services/</link>
+      <link>https://nolapsc.org/services/</link>
       <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
       
-      <guid>/localhost/services/</guid>
+      <guid>https://nolapsc.org/services/</guid>
       <description>
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.&lt;/p&gt;

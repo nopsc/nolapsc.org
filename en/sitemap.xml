@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/localhost/en/</loc>
+    <loc>https://nolapsc.org/en/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/localhost/en/history/</loc>
+    <loc>https://nolapsc.org/en/history/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/localhost/services/</loc>
+    <loc>https://nolapsc.org/services/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/localhost/blog/</loc>
+    <loc>https://nolapsc.org/blog/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   

@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>localhost/en/sitemap.xml</loc>
+	   	<loc>https://nolapsc.org/en/sitemap.xml</loc>
 		
 	   	<lastmod>2015-06-20T14:02:37+02:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>localhost/ar/sitemap.xml</loc>
+	   	<loc>https://nolapsc.org/ar/sitemap.xml</loc>
 		
 	   	<lastmod>2015-06-20T14:02:37+02:00</lastmod>
 		
