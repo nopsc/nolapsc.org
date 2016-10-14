@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History-rsses on Title in Arabic</title>
-    <link>localhost/ar/history/index.xml</link>
+    <link>https://nolapsc.org/ar/history/index.xml</link>
     <description>Recent content in History-rsses on Title in Arabic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>BDS &amp; MIT</copyright>
     <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
-    <atom:link href="localhost/ar/history/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nolapsc.org/ar/history/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>التاريخ</title>
-      <link>/localhost/ar/history/</link>
+      <link>https://nolapsc.org/ar/history/</link>
       <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
       
-      <guid>/localhost/ar/history/</guid>
+      <guid>https://nolapsc.org/ar/history/</guid>
       <description>
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.&lt;/p&gt;
