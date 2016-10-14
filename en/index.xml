@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Orleans Palestinian Solidarity Committee</title>
+    <link>localhost/en/index.xml</link>
+    <description>Recent content on New Orleans Palestinian Solidarity Committee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>BDS &amp; MIT</copyright>
+    <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
+    <atom:link href="localhost/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>History</title>
+      <link>/localhost/en/history/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>/localhost/en/history/</guid>
+      <description>&lt;p&gt;core, organizer, legal, info@nolapsc.org&lt;/p&gt;
+
+&lt;h1 class=&#34;text-xs-center&#34;&gt;NOPSC History&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;container m-b-3&#34;&gt;
+
+  &lt;p&gt;NOPSC was chartered in July 2014 by a small group of people organizing an event called #AStreetcarNamedGaza. This event was comprised of a streetcar solidarity ride, candlelight vigil, and march through the French Quarter that ultimately drew hundreds of participants and media attention from several outlets. It is the goal of NOPSC to build upon this movement, continuing to incorporate New Orleans’ culture and history of resistance into efforts to amplify Palestinian voices.&lt;/p&gt;
+
+  &lt;p&gt;In recognition of the gross human rights violations that have taken place at the expense of the Palestinian people for over seven decades, NOPSC’s top priority is to support both diasporic Palestinians, and those residing in Palestine itself. NOPSC recognizes that the institutions of power which perpetuate the continued occupation of Palestine are affected by the same hegemonic ideologies of racism and sexism that affect people of color, women, LGBTQ folks, the poor, the undocumented, and differently abled peoples everywhere.&lt;/p&gt;
+
+  &lt;p&gt;With this understanding, NOPSC is dedicated to an intersectional solidarity that does not leave room for bigotry or hate. The organizers of NOPSC recognize that systems of oppression are impressed upon everyone throughout society, and that overcoming these prejudices is an ongoing process. NOPSC welcomes all those willing to work together in the struggle toward equity for all people. Focusing on Palestine, NOPSC aims to build upon past work in New Orleans, namely the organizing efforts of NOLAPS, to catalyze an ongoing movement in this city in solidarity against oppression.&lt;/p&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>/localhost/services/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>/localhost/services/</guid>
+      <description>
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;lorem-ipsum-dolor&#34;&gt;Lorem ipsum dolor.&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta corporis ad inventore itaque impedit dolor atque amet exercitationem! Veniam qui voluptas maiores vel laudantium necessitatibus, velit ducimus! Iste hic facere, accusamus fugiat enim facilis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>News &amp; Blog</title>
+      <link>/localhost/blog/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>/localhost/blog/</guid>
+      <description>
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;lorem-ipsum-dolor&#34;&gt;Lorem ipsum dolor.&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta corporis ad inventore itaque impedit dolor atque amet exercitationem! Veniam qui voluptas maiores vel laudantium necessitatibus, velit ducimus! Iste hic facere, accusamus fugiat enim facilis.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
