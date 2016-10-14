@@ -1,4 +1,4 @@
-baseurl = "https://nolapsc.org/"
+baseurl = "https://nopsc.github.io/nolapsc.org/"
 languageCode = "en-us"
 title = "New Orleans Palestinian Solidarity Committee"
 author = "Marvin Arnold"
@@ -86,34 +86,32 @@ New Orleans is a social justice city that should no longer support segregation o
 
     [Languages.en.experience]
       title = "Experience NOPSC"
-      firstItemSrc = "/img/home/experiences/nopsc1.png"
+      firstItemSrc = "/img/home/experiences/slide-crowd.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc2.jpg"
+        src = "/img/home/experiences/slide-film-festival.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc3.jpg"
+        src = "/img/home/experiences/slide-boycott.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc4.jpg"
+        src = "/img/home/experiences/slide-march.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc5.jpg"
+        src = "/img/home/experiences/slide-march2.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc6.jpg"
+        src = "/img/home/experiences/slide-stop.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc7.jpg"
+        src = "/img/home/experiences/slide-back.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc8.jpg"
+        src = "/img/home/experiences/slide-group.jpg"
 
       [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc9.jpg"
+        src = "/img/home/experiences/slide-street.jpg"
 
-      [[Languages.en.experience.item]]
-        src = "/img/home/experiences/nopsc10.jpg"
 
     [Languages.en.newsletter]
       title = "Stay involved"
