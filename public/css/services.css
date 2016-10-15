@@ -1,0 +1,11 @@
+.service-item {
+  height: 12rem;
+  min-height: auto;
+  text-align: center;
+  color: #fff;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
