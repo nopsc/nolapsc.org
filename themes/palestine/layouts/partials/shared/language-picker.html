@@ -1,0 +1,17 @@
+<nav class="navbar navbar-dark bg-inverse navbar-full" id="pl-language-picker">
+  <div class="hidden-md-up">
+    <ul class="nav navbar-nav pull-xs-left">
+      <a class="navbar-brand" href="/{{ .Lang }}"><img src='{{ .Site.BaseURL }}img/logo-navbar.png'/></a>
+    </ul>
+  </div>
+  <ul class="nav navbar-nav pull-xs-right">
+    {{ if .Site.IsMultiLingual }}
+      {{ $currentNode := . }}
+      {{ range .Site.Languages}}
+        {{ if not (eq $currentNode.Site.Language.Lang .Lang) }}
+            <li class="nav-item"><a class="nav-link" href="{{replace $currentNode.URL $currentNode.Site.Language.Lang .Lang}}">{{ .LanguageName }}</a></li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

@@ -1,0 +1,18 @@
+<section name="newsletter" class="text-xs-center p-y-3 newsletter-section" id="newsletter">
+  <div class="container">
+    <h2 class="m-b-1">{{ .newsletter.title }}</h2>
+    <h4 class="m-b-3">{{ .newsletter.subtitle }}</h4>
+    <form class="m-t-3">
+      <div class="form-group row">
+        <div class="col-sm-9 text-xs-left">
+          <input type="email" class="form-control form-control-lg" id="newsletter-email" placeholder="{{ .newsletter.email }}">
+          <small>{{ .newsletter.tip }}</small>
+        </div>
+        <div class="col-sm-3">
+          <button type="submit" class="btn btn-success btn-lg btn-block"><strong class="text-uppercase">{{ .newsletter.button }}</strong></button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+name = "Palestine"
+license = "BDS & MIT"
+licenselink = "//github.com/nopsc/hugo-palestine-theme/blob/master/LICENSE.md"
+description = "Beautiful theme based on Bootstrap 4."
+homepage = "//github.com/nopsc/hugo-palestine-theme"
+tags = ["bootstrap 4"]
+features = ["bootstrap 4"]
+min_version = 0.17
+
+[author]
+  name = "The New Orleans Palestinians Solidarity Committee"
+  homepage = "https://nolapsc.org"

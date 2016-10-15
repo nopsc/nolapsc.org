@@ -1,0 +1,110 @@
+/*
+// Colors
+// Do a `find-replace` on the #HTML color codes in order to change the colors used in this theme.
+//
+// Green: #00a652
+// Red: #e21e28
+// Light: #3b3b3b
+// Higlight: #000
+*/
+
+html, body {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+}
+
+.btn-wrap {
+  white-space: normal;
+}
+
+div.bg-light {
+  background-color: #3b3b3b;
+}
+
+div.bg-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg-danger,
+button.btn.btn-danger {
+  background-color: #e21e28;
+}
+
+ul.navbar-small {
+  width: 100%;
+}
+
+ul.navbar-small li {
+  /*border-style: solid;*/
+  border-bottom: 0.1em solid #000;
+}
+
+button.btn-info {
+  background-color: #1534b9;
+}
+
+.bg-success,
+button.btn.btn-success {
+  background-color: #00a652;
+}
+
+.btn-link {
+  color: #e21e28;
+}
+
+hr.underline {
+  border-bottom: 0.1em solid;
+}
+
+.underline-success {
+  border-color: #00a652;
+}
+
+.underline-danger {
+  border-color: #e21e28;
+}
+
+.underline-dark {
+  border-color: #000;
+}
+
+
+/* Language picker */
+#pl-language-picker {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#pl-language-picker .nav .nav-item a.nav-link {
+  color: #fff;
+}
+
+#pl-language-picker .nav .nav-item a.nav-link:hover {
+  color: #000;
+}
+
+.nav .nav-item a.nav-link,
+button.dropdown-toggle,
+a.dropdown-item {
+  color: #000;
+}
+
+button.dropdown-toggle {
+  background-color: #fff;
+}
+
+/* on hover*/
+ .nav .nav-item a.nav-link:hover,
+ button.dropdown-toggle:hover,
+ a.dropdown-item:hover,
+/* if active*/
+.nav li.nav-item.active a.nav-link,
+.active button.dropdown-toggle,
+a.dropdown-item.active {
+  color: #000;
+  background-color: #fff;
+}
