@@ -20,6 +20,8 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
     title = "New Orleans Palestinian Solidarity Committee"
     languageName = "English"
 
+    ############################################################################
+    # Start Homepage
     [[Languages.en.menu.navbar]]
       identifier = "about"
       url = "/en/"
@@ -119,6 +121,14 @@ New Orleans is a social justice city that should no longer support segregation o
       [[Languages.en.experience.item]]
         src = "/img/home/experiences/slide-street.jpg"
 
+    [Languages.en.footer]
+      title = "a"
+
+    # End Homepage
+    ############################################################################
+
+    [Languages.en.donate]
+      title = "donate"
 
     [Languages.en.newsletter]
       title = "Stay involved"
@@ -133,12 +143,6 @@ New Orleans is a social justice city that should no longer support segregation o
       newsletterEmail = "Email"
       newsletterTip = "Only important stuff. Really."
       newsletterButton = "Sign up"
-
-    [Languages.en.footer]
-      title = "a"
-
-    [Languages.en.donate]
-      title = "donate"
 
     [Languages.en.services]
       title = "Methods & Services"
@@ -177,3 +181,112 @@ New Orleans is a social justice city that should no longer support segregation o
     title = "Title in Arabic"
     languageName = "العربية"
     description = "Arabic is the mission of the New Orleans Palestinian Solidarity Committee to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
+
+    [[Languages.ar.menu.navbar]]
+      identifier = "about"
+      url = "/en/"
+      name   = "About NOPSC"
+      weight = 1
+
+    [[Languages.ar.menu.navbar]]
+      parent = "about"
+      url = "/en/#mission"
+      name   = "Mission"
+      weight = 2
+
+    [[Languages.ar.menu.navbar]]
+      parent = "about"
+      url = "/en/#issues"
+      name   = "Issues"
+      weight = 3
+
+    [[Languages.ar.menu.navbar]]
+      parent = "about"
+      url = "/en/#petition"
+      name   = "Do Something"
+      weight = 4
+
+    [Languages.ar.banner]
+      teaser = "It is the mission of the"
+      title = "New Orleans Palestinian Solidarity Committee"
+      subtitle = "to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
+      action = "Take action"
+      actionLink = "/en/#petition"
+
+    [[Languages.ar.issues]]
+      title = "Palestinian Liberation"
+      src = "/img/home/issues/liberation.jpg"
+      subtitle = "The Palestinian people have a right to self-determination and are deserved of full human rights."
+
+    [[Languages.ar.issues]]
+      title = "Multicultural Solidarity"
+      src = "/img/home/issues/multicultural.jpg"
+      subtitle = "There is no place for discrimination in our movement because none of us will be free until all of us are free."
+
+    [[Languages.ar.issues]]
+      title = "Black-Palestinian Solidarity"
+      src = "/img/home/issues/blacks.jpg"
+      subtitle = "Current struggles exist on a spectrum that begins with and must prioritize anti-Black racism."
+
+    [[Languages.ar.issues]]
+      title = "Middle East Human Rights"
+      src = "/img/home/issues/middle-east.jpg"
+      subtitle = "The same colonial remnants that impact daily life in Palestine are those which have lead to turmoil in places like Syria and Lebanon."
+
+    [[Languages.ar.issues]]
+      title = "Palestinian Right of Return"
+      src = "/img/home/issues/return.jpg"
+      subtitle = "Nearly one million Palestinians and their descendants were displaced as a result of the 1948 massacre."
+
+    [[Languages.ar.issues]]
+      title = "Boycott, Divestment, and Sanctions (BDS)"
+      src = "/img/home/issues/bds.jpg"
+      subtitle = "BDS has worked successfully for the South African Anti-Apartheid and US Civil Rights movements."
+
+    [Languages.ar.petition]
+      title = "Petition the New Orleans City Counsel"
+      subtitle = """The City of New Orleans should use the full extent of the law to seek competitive suppliers of goods and services who do not have investments, licenses or operations in Israel.
+
+    New Orleans is a social justice city that should no longer support segregation or racism. With your support, we can make New Orleans an Apartheid-Free City."""
+      name = "Name"
+      email = "Email"
+      zip = "ZIP"
+      mail = "Mailing list opt-in"
+
+    [Languages.ar.experience]
+      title = "Experience NOPSC"
+      firstItemSrc = "/img/home/experiences/slide-crowd.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-film-festival.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-boycott.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-march.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-march2.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-stop.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-back.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-group.jpg"
+
+      [[Languages.ar.experience.item]]
+        src = "/img/home/experiences/slide-street.jpg"
+
+      [Languages.ar.footer]
+        title = "a"
+
+    [Languages.ar.do]
+      title = "Don't just sit there"
+      subtitle = "Do something."
+      newsletterEmail = "Email"
+      newsletterTip = "Only important stuff. Really."
+      newsletterButton = "Sign up"
