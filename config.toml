@@ -51,7 +51,7 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
       title = "New Orleans Palestinian Solidarity Committee"
       subtitle = "to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
       action = "Take action"
-      actionLink = "/en/#petition"
+      actionLink = "en/#petition"
 
     [[Languages.en.issues]]
       title = "Palestinian Liberation"
@@ -211,7 +211,7 @@ New Orleans is a social justice city that should no longer support segregation o
       title = "New Orleans Palestinian Solidarity Committee"
       subtitle = "to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
       action = "Take action"
-      actionLink = "/en/#petition"
+      actionLink = "ar/#petition"
 
     [[Languages.ar.issues]]
       title = "Palestinian Liberation"

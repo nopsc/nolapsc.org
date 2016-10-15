@@ -12,4 +12,4 @@ git push production master
 
 # Remove theme and use symbolic link for faster development
 rm -rf themes/palestine
-ln -s ../hugo-palestine-theme themes/palestine
+ln -s ../../hugo-palestine-theme/ themes/palestine
