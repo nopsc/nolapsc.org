@@ -64,7 +64,7 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
     [[Languages.en.issues]]
       title = "Black-Palestinian Solidarity"
       src = "/img/home/issues/blacks.jpg"
-      subtitle = "Current struggles exist on a spectrum that must begin with and prioritize anti-Black racism."
+      subtitle = "Current struggles exist on a spectrum that begins with and must prioritize anti-Black racism."
 
     [[Languages.en.issues]]
       title = "Middle East Human Rights"
@@ -139,6 +139,38 @@ New Orleans is a social justice city that should no longer support segregation o
 
     [Languages.en.donate]
       title = "donate"
+
+    [Languages.en.services]
+      title = "Methods & Services"
+
+      [[Languages.en.services.item]]
+        title = "Teach-Ins"
+        src = "img/services/teach.jpg"
+
+      [[Languages.en.services.item]]
+        title = "Workshops"
+        src = "img/services/workshop.jpg"
+
+      [[Languages.en.services.item]]
+        title = "Trainings"
+        src = "img/services/training.jpg"
+
+      [[Languages.en.services.item]]
+        title = "Lectures"
+        src = "img/services/lecture.jpg"
+
+      [[Languages.en.services.item]]
+        title = "Events"
+        src = "img/services/teach.jpg"
+
+      [[Languages.en.services.item]]
+        title = "Direct Action"
+        src = "img/services/teach.jpg"
+
+      [[Languages.en.services.item]]
+        title = "Film Festival"
+        src = "img/services/teach.jpg"
+
 
   [Languages.ar]
     weight = 2
