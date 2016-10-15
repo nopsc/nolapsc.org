@@ -4,5 +4,9 @@
 }
 
 .img-issue {
-  max-width: 7rem;
+  max-width: 9.5rem;
+}
+
+.issue-title {
+  max-height: 2.4rem;
 }

@@ -7,6 +7,13 @@ DefaultContentLanguage = "en"
 copyright = "BDS & MIT"
 DefaultContentLanguageInSubdir = true # Do not remove or language links will break
 
+[params]
+  [params.piwik]
+    url = "https://api-bdc6ea70bcd8b36e79e9f67ed68cc589.oasis.sandstorm.io"
+    apiToken = "o2_415aCeAdNBKRS7XswJdsDD6X7a13KvqSlww32Z6X"
+    srcUrl = "https://f5gfxkxmbh5t1avh2o1m.oasis.sandstorm.io/embed.js"
+    siteId = 1
+
 [Languages]
   [Languages.en]
     weight = 1
