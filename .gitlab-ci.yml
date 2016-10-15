@@ -5,11 +5,11 @@ before_script:
   - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz
   # - echo "37ee91ab3469afbf7602a091d466dfa5  hugo_0.16_linux-64bit.tgz" | md5sum -c
   - tar -zxvf hugo_0.17_Linux-64bit.tar.gz && cp ./hugo_0.17_linux_amd64/hugo_0.17_linux_amd64 /usr/bin/hugo
-  - hugo version
+  - /usr/bin/hugo version
 
 pages:
   script:
-  - hugo
+  - /usr/bin/hugo -v
   artifacts:
     paths:
     - public
