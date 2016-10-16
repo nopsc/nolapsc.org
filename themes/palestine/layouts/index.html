@@ -2,7 +2,7 @@
 
 {{ partial "sections/banner.html" (dict "banner" .Site.Params.banner "Site" .Site) }}
 {{ partial "sections/issues.html" (dict "issues" .Site.Params.issues "Site" .Site "Scratch" $.Scratch) }}
-{{ partial "sections/petition.html" (dict "petition" .Site.Params.petition) }}
+{{ partial "sections/petition.html" (dict "petition" .Site.Params.petition "Site" .Site) }}
 {{ partial "sections/experience.html" (dict "experience" .Site.Params.experience "Site" .Site) }}
 
 {{ partial "shared/bottom.html" . }}

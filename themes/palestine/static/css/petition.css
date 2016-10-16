@@ -2,3 +2,11 @@
   background-color: #000;
   color: #E6E6FA;
 }
+
+#petitionModalLabel {
+  color: #00a652;
+}
+
+div.modal-body {
+  color: #000;
+}

@@ -4,45 +4,87 @@
     <h5 class="m-t-2 m-b-3">{{ .petition.subtitle | markdownify }}</h5>
     <form>
       <div class="form-group row m-t-3">
-        <label for="petition-name" class="col-sm-2 col-form-label col-form-label-lg">{{.petition.name}}*</label>
+        <label for="petition-name" class="col-sm-2 col-form-label col-form-label-lg">{{ .petition.name }}*</label>
         <div class="col-sm-9">
           <input type="text" class="form-control form-control-lg" id="petition-name" placeholder="{{.petition.name}}">
         </div>
       </div>
 
       <div class="form-group row">
-        <label for="petition-zip" class="col-sm-2 col-form-label col-form-label-lg">{{.petition.zip}}</label>
+        <label for="petition-zip" class="col-sm-2 col-form-label col-form-label-lg">{{ .petition.zip }}</label>
         <div class="col-sm-9">
           <input type="text" class="form-control form-control-lg" id="petition-zip" placeholder="{{.petition.zip}}">
         </div>
       </div>
 
       <div class="form-group row">
-        <label for="petition-email" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+        <label for="petition-email" class="col-sm-2 col-form-label col-form-label-lg">{{ .petition.email }}</label>
         <div class="col-sm-9">
-          <input type="email" class="form-control form-control-lg" id="petition-email" placeholder="Email">
-        </div>
-      </div>
-
-      <div class="form-group row m-t-3">
-        <div class="offset-sm-2 col-sm-9 m-b-1">
-          <button type="submit" class="btn btn-success btn-lg btn-block m-x-auto btn-wrap"><strong class="text-uppercase">I don't support apartheid</strong></button>
+          <input type="email" class="form-control form-control-lg" id="petition-email" placeholder="{{ .petition.email }}">
         </div>
       </div>
 
       <div class="form-group row m-t-1">
-        <div class="col-sm-4 offset-sm-2 text-xs-left">
+        <div class="col-sm-9 offset-sm-2 text-xs-left">
           <div class="form-check">
             <label class="form-check-label  form-control-lg">
               <input type="checkbox" class="form-check-input">
-              Mailing list opt-in
+              {{ .petition.mailList }}
             </label>
           </div>
         </div>
-        <div class="col-sm-6">
-          <button type="submit" class="btn btn-link btn-lg pull-right">Read full petition</button>
+      </div>
+
+      <div class="form-group row m-t-2">
+        <div class="offset-sm-2 col-sm-9">
+          <button type="submit" class="btn btn-success btn-lg btn-block m-x-auto btn-wrap"><strong class="text-uppercase">{{ .petition.button }}</strong><br/><div id="petition-count" style="display:none;"><span id="petition-count-num"></span><span id="petition-count-text">{{ .petition.alreadySigned }}</span></div></button>
+        </div>
+      </div>
+
+      <div class="col-sm-9 offset-sm-2">
+      <div class="form-group row">
+          <button type="button" class="btn btn-link btn-lg btn-block" data-toggle="modal" data-target="#petitionModal">{{ .petition.readMore }}</button>
         </div>
       </div>
     </form>
   </div>
 </section>
+
+<!-- Get signatures count -->
+{{ if and $.Site.Params.api.url $.Site.Params.api.signaturesEndpoint }}
+  <script type="text/javascript">
+    var getPetitionCount = function() {
+      var signaturesPath = "{{$.Site.Params.api.url}}{{$.Site.Params.api.signaturesEndpoint}}"
+      $.get(signaturesPath, function(data, status) {
+        console.log("got response");
+        if(status === "success") {
+          // Add count to text
+          document.getElementById("petition-count-num").textContent = data.toString() + " ";
+          // Unhide section
+          $("#petition-count").show();
+        }
+      });
+    }
+    window.onload = getPetitionCount;
+  </script>
+{{ end}}
+
+<!-- Modal -->
+<div class="modal fade" id="petitionModal" tabindex="-1" role="dialog" aria-labelledby="petitionModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="petitionModalLabel">{{ .petition.title }}</h4>
+      </div>
+      <div class="modal-body">
+        {{ .petition.text | markdownify }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal">{{ .petition.modalBack }}</button>
+      </div>
+    </div>
+  </div>
+</div>

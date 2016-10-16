@@ -8,6 +8,11 @@ copyright = "BDS & MIT"
 DefaultContentLanguageInSubdir = true # Do not remove or language links will break
 
 [params]
+  [params.api]
+    url = "http://localhost:3000"
+    signaturesEndpoint = "/signatures"
+    subscriberEndpoint = "/mail_subscribers"
+
   [params.piwik]
     url = "https://api-bdc6ea70bcd8b36e79e9f67ed68cc589.oasis.sandstorm.io"
     apiToken = "o2_415aCeAdNBKRS7XswJdsDD6X7a13KvqSlww32Z6X"
@@ -91,7 +96,24 @@ New Orleans is a social justice city that should no longer support segregation o
       name = "Name"
       email = "Email"
       zip = "ZIP"
-      mail = "Mailing list opt-in"
+      mailList = "Mailing list opt-in"
+      button = "I stand with Palestine"
+      alreadySigned = "signatures collected"
+      readMore = "Read full petition"
+      modalBack = "Back to petition"
+      text = """We must remove all products and divest from all companies directly supporting the illegal Israeli occupation of Palestine.
+
+Israel illegally confiscates privately owned Palestinian property; imprisons Palestinian citizens for years without charge; and uses checkpoints to restrict the movement of Palestinians, even during childbirths and medical emergencies.
+
+In Gaza, the situation is even worse because citizens are denied access to food and medicine due to the Israeli-imposed blockade. The infrastructure also has not been rebuilt since the 51-day assault on Gaza in 2014, Operation Protective Edge, which killed nearly 1,500 civilians.
+
+Since its recognition as a state in 1949, Israel has violated over 30 United Nations Security Council resolution, which are legally binding.
+
+In 2015, the United States gave Israel $10.2 million a day in military aid alone. That means that last year the US spent nearly $4 billion on Israel’s military. This funding, provided by American taxpayers, allows the military to maintain it’s illegal occupation of Palestine, carry out military assaults on Gaza, and use military grade weaponry to “police” Palestinian territory.
+
+The city council has the opportunity to make known their grave concern regarding Israel’s official system of segregation and repression of non-white Jewish Israeli citizens, Israeli citizens of Palestinian descent, and Palestinians living in the West Bank and Gaza. New Orleans should no longer be party to contracts, licenses, or investments with the apartheid state of Israel. Consumer goods contributing to the illegal Israeli occupation must also be banned.
+
+Sign here to urge city council to act now to declare New Orleans an Apartheid-Free City."""
 
     [Languages.en.experience]
       title = "Experience NOPSC"
@@ -252,6 +274,7 @@ New Orleans is a social justice city that should no longer support segregation o
       email = "Email"
       zip = "ZIP"
       mail = "Mailing list opt-in"
+      text = "todo"
 
     [Languages.ar.experience]
       title = "Experience NOPSC"
