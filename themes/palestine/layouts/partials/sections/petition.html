@@ -1,26 +1,27 @@
-<section name="petition" class="text-xs-center petition-section p-y-3" id="petition">
+<section name="petition" class="petition-section p-y-3" id="petition">
   <div class="container">
-    <h2>{{ .petition.title }}</h2>
-    <h5 class="m-t-2 m-b-3">{{ .petition.subtitle | markdownify }}</h5>
-    <form>
-      <div class="form-group row m-t-3">
+    <h2 class="text-xs-center">{{ .petition.title }}</h2>
+    <h5 class="m-t-2 m-b-3 text-xs-center">{{ .petition.subtitle | markdownify }}</h5>
+    <form id="petition-form">
+      <div class="form-group row m-t-3" id="name-form-group">
         <label for="petition-name" class="col-sm-2 col-form-label col-form-label-lg">{{ .petition.name }}*</label>
         <div class="col-sm-9">
-          <input type="text" class="form-control form-control-lg" id="petition-name" placeholder="{{.petition.name}}">
+          <input type="text" class="form-control form-control-lg" id="petition-name" name="name" placeholder="{{.petition.name}}" required>
         </div>
       </div>
 
       <div class="form-group row">
         <label for="petition-zip" class="col-sm-2 col-form-label col-form-label-lg">{{ .petition.zip }}</label>
         <div class="col-sm-9">
-          <input type="text" class="form-control form-control-lg" id="petition-zip" placeholder="{{.petition.zip}}">
+          <input type="text" class="form-control form-control-lg" id="petition-zip" name="zip" placeholder="{{.petition.zip}}">
         </div>
       </div>
 
-      <div class="form-group row">
+      <div class="form-group row" id="email-form-group">
         <label for="petition-email" class="col-sm-2 col-form-label col-form-label-lg">{{ .petition.email }}</label>
         <div class="col-sm-9">
-          <input type="email" class="form-control form-control-lg" id="petition-email" placeholder="{{ .petition.email }}">
+          <input type="email" class="form-control form-control-lg" id="petition-email" name="email" placeholder="{{ .petition.email }}">
+          <div id="email-error" class="form-control-feedback" style="display:none;">{{ .petition.emailTaken }}</div>
         </div>
       </div>
 
@@ -28,7 +29,7 @@
         <div class="col-sm-9 offset-sm-2 text-xs-left">
           <div class="form-check">
             <label class="form-check-label  form-control-lg">
-              <input type="checkbox" class="form-check-input">
+              <input type="checkbox" class="form-check-input" name="mailOptIn">
               {{ .petition.mailList }}
             </label>
           </div>
@@ -43,20 +44,21 @@
 
       <div class="col-sm-9 offset-sm-2">
       <div class="form-group row">
-          <button type="button" class="btn btn-link btn-lg btn-block" data-toggle="modal" data-target="#petitionModal">{{ .petition.readMore }}</button>
+        <button type="button" class="btn btn-link btn-lg btn-block" data-toggle="modal" data-target="#petitionModal">{{ .petition.readMore }}</button>
         </div>
       </div>
     </form>
   </div>
 </section>
 
-<!-- Get signatures count -->
+<!-- Get signature count and define signature submission logic -->
 {{ if and $.Site.Params.api.url $.Site.Params.api.signaturesEndpoint }}
   <script type="text/javascript">
+    var signaturesPath = "{{$.Site.Params.api.url}}{{$.Site.Params.api.signaturesEndpoint}}"
+
+    // Get signature count
     var getPetitionCount = function() {
-      var signaturesPath = "{{$.Site.Params.api.url}}{{$.Site.Params.api.signaturesEndpoint}}"
       $.get(signaturesPath, function(data, status) {
-        console.log("got response");
         if(status === "success") {
           // Add count to text
           document.getElementById("petition-count-num").textContent = data.toString() + " ";
@@ -65,7 +67,59 @@
         }
       });
     }
-    window.onload = getPetitionCount;
+
+    // Signature form submission logic
+    var submitSignature = function() {
+      $("#petition-form").submit(function(event) {
+        event.preventDefault();
+
+        var target = event.target;
+        var name = target.name.value;
+        var zip = target.zip.value;
+        var email = target.email.value;
+        var mail_opt_in = target.mailOptIn.checked;
+        var signature = { name, zip, email, mail_opt_in };
+
+        $.post(signaturesPath, {signature}, function(data, status) {
+          if(status === "success") {
+            // Display new count
+            getPetitionCount();
+            // Reset form
+            $("#email-error").hide();
+            $("#email-form-group").removeClass("has-danger");
+            $("#petition-email").removeClass("form-control-danger");
+            
+            $('#petition-form').each(function(){
+              this.reset();
+            });
+          } else {
+            console.log("could not post");
+          }
+        }).fail(function(response) {
+          console.log("error posting");
+          console.log(response);
+          if(response.responseJSON) {
+            var errors = response.responseJSON;
+            if(errors.email) {
+              console.log("error w/ emails");
+              $("#email-form-group").addClass("has-danger");
+              $("#petition-email").addClass("form-control-danger");
+              $("#email-error").show();
+              console.log($("#email-error"));
+            }
+          }
+        })
+
+        return false;
+      });
+    }
+
+    var onLoad = function() {
+      getPetitionCount();
+      submitSignature();
+    }
+
+    window.onload = onLoad;
   </script>
 {{ end}}
 

@@ -10,3 +10,7 @@
 div.modal-body {
   color: #000;
 }
+
+div.form-group.row.has-danger input {
+  border-width: 0.25rem;
+}
