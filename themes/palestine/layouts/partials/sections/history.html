@@ -1,0 +1,41 @@
+{{ $.Scratch.Add "i" 1 }}
+{{ $baseUrl := .Site.BaseURL }}
+
+<div class="bg-light p-t-3 p-b-1" id="history-page">
+
+  <h1 class="text-xs-center">{{ .history.title }}</h1>
+
+  <div class="container m-b-2 m-t-3">
+    {{ range .history.chapter }}
+      {{ $count := ($.Scratch.Get "i") }}
+
+      <div class="row m-y-3 hidden-md-up text-xs-center">
+        <div class="col-xs-12">
+          <p>{{ .text }}</p>
+        </div>
+        <div class="col-xs-12">
+          <img src="{{ $baseUrl }}{{ .src }}"  class="img-fluid" />
+        </div>
+      </div>
+
+      <div class="row m-y-3 hidden-sm-down">
+        {{ if modBool $count 2 }}
+          <div class="col-xs-12 col-md-5 text-xs-right">
+            <p>{{ .text }}</p>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <img src="{{ $baseUrl }}{{ .src }}"  class="img-fluid" />
+          </div>
+        {{ else }}
+          <div class="col-xs-12 col-md-7">
+            <img src="{{ $baseUrl }}{{ .src }}"  class="img-fluid" />
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <p>{{ .text }}</p>
+          </div>
+        {{ end }}
+      </div>
+      {{ $.Scratch.Add "i" 1 }}
+    {{ end }}
+  </div>
+</div>

@@ -49,7 +49,7 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
     [[Languages.en.menu.navbar]]
       parent = "about"
       url = "/en/#petition"
-      name   = "Do Something"
+      name   = "Petition"
       weight = 4
 
     [Languages.en.banner]
@@ -62,10 +62,10 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
     [[Languages.en.issues]]
       title = "Palestinian Liberation"
       src = "/img/home/issues/liberation.jpg"
-      subtitle = "The Palestinian people have a right to self-determination and are deserved of full human rights."
+      subtitle = "The Palestinian people have a right to self-determination and deserve full human rights."
 
     [[Languages.en.issues]]
-      title = "Multicultural Solidarity"
+      title = "Intersectional Solidarity"
       src = "/img/home/issues/multicultural.jpg"
       subtitle = "There is no place for discrimination in our movement because none of us will be free until all of us are free."
 
@@ -77,7 +77,7 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
     [[Languages.en.issues]]
       title = "Middle East Human Rights"
       src = "/img/home/issues/middle-east.jpg"
-      subtitle = "The same colonial remnants that impact daily life in Palestine are those which have lead to turmoil in places like Syria and Lebanon."
+      subtitle = "The same colonial remnants that impact daily life in Palestine are those which have led to turmoil in places like Syria and Lebanon."
 
     [[Languages.en.issues]]
       title = "Palestinian Right of Return"
@@ -90,7 +90,7 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
       subtitle = "BDS has worked successfully for the South African Anti-Apartheid and US Civil Rights movements."
 
     [Languages.en.petition]
-      title = "Petition the New Orleans City Counsel"
+      title = "Petition the New Orleans City Council"
       subtitle = """The City of New Orleans should use the full extent of the law to seek competitive suppliers of goods and services who do not have investments, licenses or operations in Israel.
 
 New Orleans is a social justice city that should no longer support segregation or racism. With your support, we can make New Orleans an Apartheid-Free City."""
@@ -167,9 +167,11 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       newsletterEmail = "Email"
       newsletterTip = "Only important stuff. Really."
       newsletterButton = "Sign up"
+      btcAddr = "1Dbfgq9CUDif8uASQV38ubqz1zC8zKg4q2"
 
     [Languages.en.services]
-      title = "Methods & Services"
+      title = "Programming"
+      subtitle = "If you would like to request one of our program offerings or would like more information please send us an email at [info@nolapsc.org](mailto:info@nolapsc.org)."
 
       [[Languages.en.services.item]]
         title = "Teach-Ins"
@@ -198,6 +200,21 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       [[Languages.en.services.item]]
         title = "Film Festival"
         src = "img/services/teach.jpg"
+
+    [Languages.en.history]
+      title = "NOPSC History"
+
+      [[Languages.en.history.chapter]]
+        text = "NOPSC was chartered in July 2014 by a small group of people organizing an event called #AStreetcarNamedGaza. This event was comprised of a streetcar solidarity ride, candlelight vigil, and march through the French Quarter that ultimately drew hundreds of participants and media attention from several outlets. It is the goal of NOPSC to build upon this movement, continuing to incorporate New Orleans’ culture and history of resistance into efforts to amplify Palestinian voices."
+        src = "img/history/history-1.jpg"
+
+      [[Languages.en.history.chapter]]
+        text = "In recognition of the gross human rights violations that have taken place at the expense of the Palestinian people for over seven decades, NOPSC’s top priority is to support both diasporic Palestinians, and those residing in Palestine itself. NOPSC recognizes that the institutions of power which perpetuate the continued occupation of Palestine are affected by the same hegemonic ideologies of racism and sexism that affect people of color, women, LGBTQ folks, the poor, the undocumented, and differently abled peoples everywhere."
+        src = "img/history/history-2.jpg"
+
+      [[Languages.en.history.chapter]]
+        text = "With this understanding, NOPSC is dedicated to an intersectional solidarity that does not leave room for bigotry or hate. The organizers of NOPSC recognize that systems of oppression are impressed upon everyone throughout society, and that overcoming these prejudices is an ongoing process. NOPSC welcomes all those willing to work together in the struggle toward equity for all people. Focusing on Palestine, NOPSC aims to build upon past work in New Orleans, namely the organizing efforts of NOLAPS, to catalyze an ongoing movement in this city in solidarity against oppression."
+        src = "img/history/history-3.jpg"
 
 
   [Languages.ar]

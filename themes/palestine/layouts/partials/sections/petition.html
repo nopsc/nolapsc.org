@@ -44,7 +44,7 @@
 
       <div class="col-sm-9 offset-sm-2">
       <div class="form-group row">
-        <button type="button" class="btn btn-link btn-lg btn-block" data-toggle="modal" data-target="#petitionModal">{{ .petition.readMore }}</button>
+        <button type="button" class="btn btn-link btn-lg btn-block text-success" data-toggle="modal" data-target="#petitionModal">{{ .petition.readMore }}</button>
         </div>
       </div>
     </form>
@@ -88,7 +88,7 @@
             $("#email-error").hide();
             $("#email-form-group").removeClass("has-danger");
             $("#petition-email").removeClass("form-control-danger");
-            
+
             $('#petition-form').each(function(){
               this.reset();
             });

@@ -1,20 +1,21 @@
-<section name="do" class="text-xs-center p-y-3 do-section" id="do">
+<section name="do" class="text-xs-center p-y-2 do-section" id="do">
   <div class="container-fluid">
-    <h6>{{ .do.title }}</h6>
-    <h2 class="m-b-3"><strong>{{ .do.subtitle }}</strong></h2>
+    <h3 class="m-b-1"><strong>{{ .do.subtitle }}</strong></h3>
 
-    <button class="btn btn-lg bg-danger">Donate now</button>
-
-    <hr class="m-t-3" />
-
+    <button class="btn btn-lg btn-success">Donate now</button>
+    {{ if .do.btcAddr }}
+      <h6 class="text-muted m-t-1">Donate Bitcoin: {{ .do.btcAddr }}</h6>
+    {{ end }}
+  </div>
+  <div class="container m-t-3">
     <form>
-      <h5 class="text-xs-left m-t-2">Join our mailing list</h5>
+      <h5 class="text-xs-left m-t-1">Join our mailing list</h5>
       <div class="form-group row">
         <div class="col-sm-8 text-xs-left m-t-1">
           <input type="email" class="form-control" id="newsletter-email" placeholder="{{ .do.newsletterEmail }}">
         </div>
         <div class="col-sm-4 m-t-1">
-          <button type="submit" class="btn btn-success">{{ .do.newsletterButton }}</button>
+          <button type="submit" class="btn btn-success btn-block">{{ .do.newsletterButton }}</button>
         </div>
       </div>
     </form>

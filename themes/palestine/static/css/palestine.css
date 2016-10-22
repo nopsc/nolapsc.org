@@ -52,6 +52,10 @@ button.btn.btn-success {
   background-color: #00a652;
 }
 
+.text-success {
+  color: #00a652;
+}
+
 .btn-link {
   color: #e21e28;
 }
@@ -71,7 +75,6 @@ hr.underline {
 .underline-dark {
   border-color: #000;
 }
-
 
 /* Language picker */
 #pl-language-picker {
