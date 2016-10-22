@@ -52,6 +52,18 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
       name   = "Petition"
       weight = 4
 
+    [[Languages.en.menu.navbar]]
+      parent = "about"
+      url = "/en/#experience"
+      name   = "Experience"
+      weight = 5
+
+    [[Languages.en.menu.navbar]]
+      parent = "about"
+      url = "/en/#do"
+      name   = "Get Involved"
+      weight = 6
+
     [Languages.en.banner]
       teaser = "It is the mission of the"
       title = "New Orleans Palestinian Solidarity Committee"
@@ -103,6 +115,9 @@ New Orleans is a social justice city that should no longer support segregation o
       alreadySigned = "signatures collected"
       readMore = "Read full petition"
       modalBack = "Back to petition"
+      successTitle = "You're a boss"
+      successSubtitle = "Thanks for being a fellow human rights defender"
+      successButton = "Sign again"
       text = """We must remove all products and divest from all companies directly supporting the illegal Israeli occupation of Palestine.
 
 Israel illegally confiscates privately owned Palestinian property; imprisons Palestinian citizens for years without charge; and uses checkpoints to restrict the movement of Palestinians, even during childbirths and medical emergencies.
@@ -146,7 +161,12 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
         src = "/img/home/experiences/slide-street.jpg"
 
     [Languages.en.footer]
-      title = "a"
+      facebookUrl = "https://www.facebook.com/neworleanspalestiniansolidaritycommittee/"
+      email = "info@nolapsc.org"
+      twitterUrl = "https://twitter.com/nopsc"
+      githubUrl = "https://github.com/nopsc"
+      publicKeyUrl = "/info_pub.asc"
+      fingerprint = "4193 BF29 6F07 C201 6332  FE82 192D ACB7 1081 DC37"
 
     # End Homepage
     ############################################################################
@@ -162,11 +182,13 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       button = "Sign up"
 
     [Languages.en.do]
-      title = "Don't just sit there"
-      subtitle = "Do something."
+      title = "Do something."
+      newsletterTitle = "Join our mailing list"
       newsletterEmail = "Email"
       newsletterTip = "Only important stuff. Really."
       newsletterButton = "Sign up"
+      donateButton = "Donate to NOPSC"
+      btcTitle = "Bitcoin:"
       btcAddr = "1Dbfgq9CUDif8uASQV38ubqz1zC8zKg4q2"
 
     [Languages.en.services]
@@ -195,10 +217,6 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
 
       [[Languages.en.services.item]]
         title = "Direct Action"
-        src = "img/services/teach.jpg"
-
-      [[Languages.en.services.item]]
-        title = "Film Festival"
         src = "img/services/teach.jpg"
 
     [Languages.en.history]
@@ -324,11 +342,23 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
         src = "/img/home/experiences/slide-street.jpg"
 
       [Languages.ar.footer]
-        title = "a"
+        facebookUrl = "https://www.facebook.com/neworleanspalestiniansolidaritycommittee/"
+        email = "info@nolapsc.org"
+        twitterUrl = "https://twitter.com/nopsc"
+        githubUrl = "https://github.com/nopsc"
+        publicKeyUrl = "/info_pub.asc"
+        fingerprint = "4193 BF29 6F07 C201 6332  FE82 192D ACB7 1081 DC37"
 
     [Languages.ar.do]
-      title = "Don't just sit there"
-      subtitle = "Do something."
+      title = "Do something."
       newsletterEmail = "Email"
       newsletterTip = "Only important stuff. Really."
       newsletterButton = "Sign up"
+      btcAddr = "1Dbfgq9CUDif8uASQV38ubqz1zC8zKg4q2"
+
+    [Languages.ar.history]
+      title = "NOPSC History"
+
+      [[Languages.ar.history.chapter]]
+        text = "NOPSC was chartered in July 2014 by a small group of people organizing an event called #AStreetcarNamedGaza. This event was comprised of a streetcar solidarity ride, candlelight vigil, and march through the French Quarter that ultimately drew hundreds of participants and media attention from several outlets. It is the goal of NOPSC to build upon this movement, continuing to incorporate New Orleans’ culture and history of resistance into efforts to amplify Palestinian voices."
+        src = "img/history/history-1.jpg"

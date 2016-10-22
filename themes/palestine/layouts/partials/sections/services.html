@@ -2,7 +2,7 @@
 
 <div class="container-fluid text-xs-center">
   <h2 class="">{{ .services.title }}</h2>
-  <h6 class="m-b-2 text-muted">{{ .services.subtitle | markdownify }}</h6>
+  <h6 class="m-b-2 m-t-1 text-muted">{{ .services.subtitle | markdownify }}</h6>
   {{ range .services.item }}
     <div class="col-xs-12 col-sm-6 service-item m-x-0" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url({{$baseUrl}}{{.src}});">
       <h1 class="m-t-3">{{ .title }}</h1>

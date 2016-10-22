@@ -1,8 +1,9 @@
 <section name="petition" class="petition-section p-y-3" id="petition">
   <div class="container">
-    <h2 class="text-xs-center">{{ .petition.title }}</h2>
-    <h5 class="m-t-2 m-b-3 text-xs-center">{{ .petition.subtitle | markdownify }}</h5>
     <form id="petition-form">
+      <h2 class="text-xs-center">{{ .petition.title }}</h2>
+      <h5 class="m-t-2 m-b-3 text-xs-center">{{ .petition.subtitle | markdownify }}</h5>
+
       <div class="form-group row m-t-3" id="name-form-group">
         <label for="petition-name" class="col-sm-2 col-form-label col-form-label-lg">{{ .petition.name }}*</label>
         <div class="col-sm-9">
@@ -44,10 +45,16 @@
 
       <div class="col-sm-9 offset-sm-2">
       <div class="form-group row">
-        <button type="button" class="btn btn-link btn-lg btn-block text-success" data-toggle="modal" data-target="#petitionModal">{{ .petition.readMore }}</button>
+        <button type="button" class="btn btn-link btn-lg btn-block" style="color:#fff;" data-toggle="modal" data-target="#petitionModal">{{ .petition.readMore }}</button>
         </div>
       </div>
     </form>
+
+    <div id="petition-success" style="display:none;" class="text-xs-center">
+      <h1>{{ .petition.successTitle }}</h1>
+      <h3>{{ .petition.successSubtitle }}</h3>
+      <button class="btn btn-secondary m-t-1 btn-lg" id="petition-success-button">{{ .petition.successButton }}</button>
+    </div>
   </div>
 </section>
 
@@ -92,6 +99,12 @@
             $('#petition-form').each(function(){
               this.reset();
             });
+
+            $('#petition-form').hide();
+            $('#petition-success').show();
+            $('html, body').animate({
+                scrollTop: $("#petition-success").offset().top - 50
+             }, 20);
           } else {
             console.log("could not post");
           }
@@ -114,10 +127,21 @@
       });
     }
 
+    var toggleSuccess = function() {
+      // Toggle succes message to sign again
+      $("#petition-success-button").click(function() {
+        $("#petition-success").hide();
+        $("#petition-form").show();
+      });
+    };
+
     var onLoad = function() {
       getPetitionCount();
       submitSignature();
+      toggleSuccess();
     }
+
+
 
     window.onload = onLoad;
   </script>

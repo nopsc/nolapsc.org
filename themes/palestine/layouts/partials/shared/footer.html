@@ -1,18 +1,24 @@
+{{ $baseUrl := .Site.BaseURL }}
+
 <section name="footer" class="text-xs-center p-y-3 footer-section navbar-dark bg-inverse" id="footer">
   <div class="container">
     <div class="row">
       <div class="col-xs-2 offset-xs-2">
-        <h3><a href="https://www.facebook.com/neworleanspalestiniansolidaritycommittee/" class="footer-link"><i class="icon ion-social-facebook"></i></a></h3>
+        <h3><a href="{{ .footer.facebookUrl }}" class="footer-link"><i class="icon ion-social-facebook"></i></a></h3>
       </div>
       <div class="col-xs-2">
-        <h3><a href="mailto:info@nolapsc.org" class="footer-link"><i class="icon ion-email"></i></a></h3>
+        <h3><a href="mailto:{{ .footer.email }}" class="footer-link"><i class="icon ion-email"></i></a></h3>
       </div>
       <div class="col-xs-2">
-        <h3><a href="https://twitter.com/nopsc" class="footer-link"><i class="icon ion-social-twitter"></i></a></h3>
+        <h3><a href="{{ .footer.twitterUrl }}" class="footer-link"><i class="icon ion-social-twitter"></i></a></h3>
       </div>
       <div class="col-xs-2">
-        <h3><a href="https://github.com/nopsc" class="footer-link"><i class="icon ion-social-github"></i></a></h3>
+        <h3><a href="{{ .footer.githubUrl }}" class="footer-link"><i class="icon ion-social-github"></i></a></h3>
       </div>
+    </div>
+
+    <div class="row">
+      <a href="{{ $baseUrl }}{{ .footer.publicKeyUrl }}" class="text-success">PGP: {{ .footer.fingerprint }}</a>
     </div>
 
     <hr class="footer m-y-2" />
