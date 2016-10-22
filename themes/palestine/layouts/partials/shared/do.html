@@ -6,17 +6,77 @@
     {{ end }}
   </div>
   <div class="container m-t-3">
-    <form>
+    <form id="subscription-form">
       <h6 class="text-xs-left m-t-1">{{ .do.newsletterTitle }}</h6>
-      <div class="form-group row">
+      <div class="form-group row" id="subscription-form-group">
         <div class="col-sm-8 text-xs-left m-t-1">
-          <input type="email" class="form-control form-control-sm" id="newsletter-email" placeholder="{{ .do.newsletterEmail }}">
+          <input type="email" class="form-control form-control-sm" id="subscription-email" placeholder="{{ .do.newsletterEmail }}" name="email">
           <small>{{ .do.newsletterTip }}</small>
         </div>
         <div class="col-sm-4 m-t-1">
           <button type="submit" class="btn btn-success btn-block btn-sm">{{ .do.newsletterButton }}</button>
+          <span id="subscription-error" class="text-danger" style="display:none;"><strong>{{ .do.newsletterError }}</strong></span>
+          <span id="subscription-success" class="text-success" style="display:none;"><strong>{{ .do.newsletterSuccess }}</strong></span>
         </div>
       </div>
     </form>
   </div>
 </section>
+
+<!-- Subscribe to newsletter -->
+{{ if and $.Site.Params.api.url $.Site.Params.api.subscribeEndpoint }}
+  <script type="text/javascript">
+    var subscribePath = "{{$.Site.Params.api.url}}{{$.Site.Params.api.subscribeEndpoint}}";
+
+    var subscribe = function() {
+      $("#subscription-form").submit(function(event) {
+        event.preventDefault();
+
+        var target = event.target;
+        var email = target.email.value;
+
+        $.post(subscribePath, {mail_subscriber: {email}}, function(data, status) {
+          if(status === "success") {
+
+            // Reset form
+            $("#subscription-error").hide();
+            $("#subscription-form-group").removeClass("has-danger");
+            $("#subscription-email").removeClass("form-control-danger");
+
+            $('#subscription-form').each(function(){
+              this.reset();
+            });
+
+            $('#subscription-error').hide();
+            $('#subscription-success').show();
+          } else {
+            console.log("could not post");
+          }
+        }).fail(function(response) {
+          console.log("error posting");
+          console.log(response);
+          if(response.responseJSON) {
+            var errors = response.responseJSON;
+
+            $("#subscription-form-group").addClass("has-danger");
+            $("#subscription-email").addClass("form-control-danger");
+            $("#subscription-error").show();
+            $("#subscription-success").hide();
+          }
+        })
+
+        return false;
+      });
+    }
+
+    // http://stackoverflow.com/questions/15564029/adding-to-window-onload-event#15564058
+    function addEvent(element, eventName, fn) {
+      if (element.addEventListener)
+        element.addEventListener(eventName, fn, false);
+      else if (element.attachEvent)
+        element.attachEvent('on' + eventName, fn);
+    }
+
+    addEvent(window, 'load', subscribe);
+  </script>
+{{ end }}

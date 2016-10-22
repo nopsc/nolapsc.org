@@ -106,19 +106,14 @@
                 scrollTop: $("#petition-success").offset().top - 50
              }, 20);
           } else {
-            console.log("could not post");
           }
         }).fail(function(response) {
-          console.log("error posting");
-          console.log(response);
           if(response.responseJSON) {
             var errors = response.responseJSON;
             if(errors.email) {
-              console.log("error w/ emails");
               $("#email-form-group").addClass("has-danger");
               $("#petition-email").addClass("form-control-danger");
               $("#email-error").show();
-              console.log($("#email-error"));
             }
           }
         })
@@ -135,15 +130,17 @@
       });
     };
 
-    var onLoad = function() {
-      getPetitionCount();
-      submitSignature();
-      toggleSuccess();
+    // http://stackoverflow.com/questions/15564029/adding-to-window-onload-event#15564058
+    function addEvent(element, eventName, fn) {
+      if (element.addEventListener)
+        element.addEventListener(eventName, fn, false);
+      else if (element.attachEvent)
+        element.attachEvent('on' + eventName, fn);
     }
 
-
-
-    window.onload = onLoad;
+    addEvent(window, 'load', getPetitionCount);
+    addEvent(window, 'load', submitSignature);
+    addEvent(window, 'load', toggleSuccess);
   </script>
 {{ end}}
 

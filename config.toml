@@ -9,10 +9,10 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
 
 [params]
   [params.api]
-    url = "https://sheltered-ocean-72015.herokuapp.com"
-    # url = "http://localhost:3000"
+    # url = "https://sheltered-ocean-72015.herokuapp.com"
+    url = "http://localhost:3000"
     signaturesEndpoint = "/signatures"
-    subscriberEndpoint = "/mail_subscribers"
+    subscribeEndpoint = "/mail_subscribers"
 
   [params.piwik]
     url = "https://api-bdc6ea70bcd8b36e79e9f67ed68cc589.oasis.sandstorm.io"
@@ -25,6 +25,14 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
     weight = 1
     title = "New Orleans Palestinian Solidarity Committee"
     languageName = "English"
+
+    [Languages.en.footer]
+      facebookUrl = "https://www.facebook.com/neworleanspalestiniansolidaritycommittee/"
+      email = "info@nolapsc.org"
+      twitterUrl = "https://twitter.com/nopsc"
+      githubUrl = "https://github.com/nopsc"
+      publicKeyUrl = "/info_pub.asc"
+      fingerprint = "4193 BF29 6F07 C201 6332  FE82 192D ACB7 1081 DC37"
 
     ############################################################################
     # Start Homepage
@@ -160,26 +168,8 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       [[Languages.en.experience.item]]
         src = "/img/home/experiences/slide-street.jpg"
 
-    [Languages.en.footer]
-      facebookUrl = "https://www.facebook.com/neworleanspalestiniansolidaritycommittee/"
-      email = "info@nolapsc.org"
-      twitterUrl = "https://twitter.com/nopsc"
-      githubUrl = "https://github.com/nopsc"
-      publicKeyUrl = "/info_pub.asc"
-      fingerprint = "4193 BF29 6F07 C201 6332  FE82 192D ACB7 1081 DC37"
-
     # End Homepage
     ############################################################################
-
-    [Languages.en.donate]
-      title = "donate"
-
-    [Languages.en.newsletter]
-      title = "Stay involved"
-      subtitle = "Get notified about our meetings, actions, and other ways for you to get involved."
-      email = "Email"
-      tip = "Only important stuff. Really."
-      button = "Sign up"
 
     [Languages.en.do]
       title = "Do something."
@@ -187,6 +177,8 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       newsletterEmail = "Email"
       newsletterTip = "Only important stuff. Really."
       newsletterButton = "Sign up"
+      newsletterError = "Email already signed up."
+      newsletterSuccess = "Thanks, we'll be in touch."
       donateButton = "Donate to NOPSC"
       btcTitle = "Bitcoin:"
       btcAddr = "1Dbfgq9CUDif8uASQV38ubqz1zC8zKg4q2"
@@ -234,6 +226,10 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
         text = "With this understanding, NOPSC is dedicated to an intersectional solidarity that does not leave room for bigotry or hate. The organizers of NOPSC recognize that systems of oppression are impressed upon everyone throughout society, and that overcoming these prejudices is an ongoing process. NOPSC welcomes all those willing to work together in the struggle toward equity for all people. Focusing on Palestine, NOPSC aims to build upon past work in New Orleans, namely the organizing efforts of NOLAPS, to catalyze an ongoing movement in this city in solidarity against oppression."
         src = "img/history/history-3.jpg"
 
+  ##############################################################################
+  ##############################################################################
+  ##############################################################################
+  ##############################################################################
 
   [Languages.ar]
     weight = 2
