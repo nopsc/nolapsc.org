@@ -1,0 +1,4 @@
+{{ partial "shared/top.html" . }}
+{{ partial "sections/festival.html" (dict "festival" .Site.Params.festival "Site" .Site "Scratch" $.Scratch) }}
+{{ partial "shared/do.html"  (dict "do" .Site.Params.do)  }}
+{{ partial "shared/bottom.html" . }}

@@ -189,27 +189,33 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
 
       [[Languages.en.services.item]]
         title = "Teach-Ins"
+        subtitle = "We host popular education gatherings for anyone with a deep understanding of key issues surrounding Palestinian human rights to both share and receive knowledge from the community."
         src = "img/services/teach.jpg"
 
       [[Languages.en.services.item]]
-        title = "Workshops"
-        src = "img/services/workshop.jpg"
-
-      [[Languages.en.services.item]]
         title = "Trainings"
+        subtitle = "In order to successfully push our movement forward, we share knowledge that we have learned about canvassing, petitioning, and outreach (to name a few) with new members and partners."
         src = "img/services/training.jpg"
 
       [[Languages.en.services.item]]
         title = "Lectures"
+        subtitle = "The strength of our organization is in our diversity of skills. Our core members have given lectures in a wide variety of spaces, including universities, churches, and art galleries."
         src = "img/services/lecture.jpg"
 
       [[Languages.en.services.item]]
         title = "Events"
-        src = "img/services/teach.jpg"
+        subtitle = "Sometimes we’ve got to switch it up. We host vigils, parties, and film screenings depending on the political climate and needs of the community."
+        src = "img/services/events.jpg"
 
       [[Languages.en.services.item]]
-        title = "Direct Action"
-        src = "img/services/teach.jpg"
+        title = "Direct Actions"
+        subtitle = "Resistance is our right. We utilize blockades, pickets, and demonstrations to force those otherwise unwilling to engage in dialogue to confront truth."
+        src = "img/services/action.jpg"
+
+      [[Languages.en.services.item]]
+        title = "Community Meetings"
+        subtitle = "We hold open community meetings once a month for those interested in playing a direct role in Palestinian solidarity work in the Greater New Orleans area."
+        src = "img/services/community.jpg"
 
     [Languages.en.history]
       title = "NOPSC History"
@@ -226,17 +232,30 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
         text = "With this understanding, NOPSC is dedicated to an intersectional solidarity that does not leave room for bigotry or hate. The organizers of NOPSC recognize that systems of oppression are impressed upon everyone throughout society, and that overcoming these prejudices is an ongoing process. NOPSC welcomes all those willing to work together in the struggle toward equity for all people. Focusing on Palestine, NOPSC aims to build upon past work in New Orleans, namely the organizing efforts of NOLAPS, to catalyze an ongoing movement in this city in solidarity against oppression."
         src = "img/history/history-3.jpg"
 
+    [Languages.en.festival]
+      title = "NOPSC Film Festival"
+      imgSrc = "img/festival/festival.jpg"
+
   ##############################################################################
   ##############################################################################
   ##############################################################################
   ##############################################################################
 
   [Languages.ar]
-    weight = 2
-    title = "Title in Arabic"
-    languageName = "العربية"
-    description = "Arabic is the mission of the New Orleans Palestinian Solidarity Committee to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
+    weight = 1
+    title = "New Orleans Palestinian Solidarity Committee"
+    languageName = "English"
 
+    [Languages.ar.footer]
+      facebookUrl = "https://www.facebook.com/neworleanspalestiniansolidaritycommittee/"
+      email = "info@nolapsc.org"
+      twitterUrl = "https://twitter.com/nopsc"
+      githubUrl = "https://github.com/nopsc"
+      publicKeyUrl = "/info_pub.asc"
+      fingerprint = "4193 BF29 6F07 C201 6332  FE82 192D ACB7 1081 DC37"
+
+    ############################################################################
+    # Start Homepage
     [[Languages.ar.menu.navbar]]
       identifier = "about"
       url = "/en/"
@@ -258,23 +277,35 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
     [[Languages.ar.menu.navbar]]
       parent = "about"
       url = "/en/#petition"
-      name   = "Do Something"
+      name   = "Petition"
       weight = 4
+
+    [[Languages.ar.menu.navbar]]
+      parent = "about"
+      url = "/en/#experience"
+      name   = "Experience"
+      weight = 5
+
+    [[Languages.ar.menu.navbar]]
+      parent = "about"
+      url = "/en/#do"
+      name   = "Get Involved"
+      weight = 6
 
     [Languages.ar.banner]
       teaser = "It is the mission of the"
       title = "New Orleans Palestinian Solidarity Committee"
       subtitle = "to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
       action = "Take action"
-      actionLink = "ar/#petition"
+      actionLink = "en/#petition"
 
     [[Languages.ar.issues]]
       title = "Palestinian Liberation"
       src = "/img/home/issues/liberation.jpg"
-      subtitle = "The Palestinian people have a right to self-determination and are deserved of full human rights."
+      subtitle = "The Palestinian people have a right to self-determination and deserve full human rights."
 
     [[Languages.ar.issues]]
-      title = "Multicultural Solidarity"
+      title = "Intersectional Solidarity"
       src = "/img/home/issues/multicultural.jpg"
       subtitle = "There is no place for discrimination in our movement because none of us will be free until all of us are free."
 
@@ -286,7 +317,7 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
     [[Languages.ar.issues]]
       title = "Middle East Human Rights"
       src = "/img/home/issues/middle-east.jpg"
-      subtitle = "The same colonial remnants that impact daily life in Palestine are those which have lead to turmoil in places like Syria and Lebanon."
+      subtitle = "The same colonial remnants that impact daily life in Palestine are those which have led to turmoil in places like Syria and Lebanon."
 
     [[Languages.ar.issues]]
       title = "Palestinian Right of Return"
@@ -299,15 +330,35 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       subtitle = "BDS has worked successfully for the South African Anti-Apartheid and US Civil Rights movements."
 
     [Languages.ar.petition]
-      title = "Petition the New Orleans City Counsel"
+      title = "Petition the New Orleans City Council"
       subtitle = """The City of New Orleans should use the full extent of the law to seek competitive suppliers of goods and services who do not have investments, licenses or operations in Israel.
 
-    New Orleans is a social justice city that should no longer support segregation or racism. With your support, we can make New Orleans an Apartheid-Free City."""
+New Orleans is a social justice city that should no longer support segregation or racism. With your support, we can make New Orleans an Apartheid-Free City."""
       name = "Name"
       email = "Email"
+      emailTaken = "Email address already used."
       zip = "ZIP"
-      mail = "Mailing list opt-in"
-      text = "todo"
+      mailList = "Mailing list opt-in"
+      button = "I stand with Palestine"
+      alreadySigned = "signatures collected"
+      readMore = "Read full petition"
+      modalBack = "Back to petition"
+      successTitle = "You're a boss"
+      successSubtitle = "Thanks for being a fellow human rights defender"
+      successButton = "Sign again"
+      text = """We must remove all products and divest from all companies directly supporting the illegal Israeli occupation of Palestine.
+
+Israel illegally confiscates privately owned Palestinian property; imprisons Palestinian citizens for years without charge; and uses checkpoints to restrict the movement of Palestinians, even during childbirths and medical emergencies.
+
+In Gaza, the situation is even worse because citizens are denied access to food and medicine due to the Israeli-imposed blockade. The infrastructure also has not been rebuilt since the 51-day assault on Gaza in 2014, Operation Protective Edge, which killed nearly 1,500 civilians.
+
+Since its recognition as a state in 1949, Israel has violated over 30 United Nations Security Council resolution, which are legally binding.
+
+In 2015, the United States gave Israel $10.2 million a day in military aid alone. That means that last year the US spent nearly $4 billion on Israel’s military. This funding, provided by American taxpayers, allows the military to maintain it’s illegal occupation of Palestine, carry out military assaults on Gaza, and use military grade weaponry to “police” Palestinian territory.
+
+The city council has the opportunity to make known their grave concern regarding Israel’s official system of segregation and repression of non-white Jewish Israeli citizens, Israeli citizens of Palestinian descent, and Palestinians living in the West Bank and Gaza. New Orleans should no longer be party to contracts, licenses, or investments with the apartheid state of Israel. Consumer goods contributing to the illegal Israeli occupation must also be banned.
+
+Sign here to urge city council to act now to declare New Orleans an Apartheid-Free City."""
 
     [Languages.ar.experience]
       title = "Experience NOPSC"
@@ -337,20 +388,54 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       [[Languages.ar.experience.item]]
         src = "/img/home/experiences/slide-street.jpg"
 
-      [Languages.ar.footer]
-        facebookUrl = "https://www.facebook.com/neworleanspalestiniansolidaritycommittee/"
-        email = "info@nolapsc.org"
-        twitterUrl = "https://twitter.com/nopsc"
-        githubUrl = "https://github.com/nopsc"
-        publicKeyUrl = "/info_pub.asc"
-        fingerprint = "4193 BF29 6F07 C201 6332  FE82 192D ACB7 1081 DC37"
+    # End Homepage
+    ############################################################################
 
     [Languages.ar.do]
       title = "Do something."
+      newsletterTitle = "Join our mailing list"
       newsletterEmail = "Email"
       newsletterTip = "Only important stuff. Really."
       newsletterButton = "Sign up"
+      newsletterError = "Email already signed up."
+      newsletterSuccess = "Thanks, we'll be in touch."
+      donateButton = "Donate to NOPSC"
+      btcTitle = "Bitcoin:"
       btcAddr = "1Dbfgq9CUDif8uASQV38ubqz1zC8zKg4q2"
+
+    [Languages.ar.services]
+      title = "Programming"
+      subtitle = "If you would like to request one of our program offerings or would like more information please send us an email at [info@nolapsc.org](mailto:info@nolapsc.org)."
+
+      [[Languages.ar.services.item]]
+        title = "Teach-Ins"
+        subtitle = "We host popular education gatherings for anyone with a deep understanding of key issues surrounding Palestinian human rights to both share and receive knowledge from the community."
+        src = "img/services/teach.jpg"
+
+      [[Languages.ar.services.item]]
+        title = "Trainings"
+        subtitle = "In order to successfully push our movement forward, we share knowledge that we have learned about canvassing, petitioning, and outreach (to name a few) with new members and partners."
+        src = "img/services/training.jpg"
+
+      [[Languages.ar.services.item]]
+        title = "Lectures"
+        subtitle = "The strength of our organization is in our diversity of skills. Our core members have given lectures in a wide variety of spaces, including universities, churches, and art galleries."
+        src = "img/services/lecture.jpg"
+
+      [[Languages.ar.services.item]]
+        title = "Events"
+        subtitle = "Sometimes we’ve got to switch it up. We host vigils, parties, and film screenings depending on the political climate and needs of the community."
+        src = "img/services/events.jpg"
+
+      [[Languages.ar.services.item]]
+        title = "Direct Actions"
+        subtitle = "Resistance is our right. We utilize blockades, pickets, and demonstrations to force those otherwise unwilling to engage in dialogue to confront truth."
+        src = "img/services/action.jpg"
+
+      [[Languages.ar.services.item]]
+        title = "Community Meetings"
+        subtitle = "We hold open community meetings once a month for those interested in playing a direct role in Palestinian solidarity work in the Greater New Orleans area."
+        src = "img/services/community.jpg"
 
     [Languages.ar.history]
       title = "NOPSC History"
@@ -358,3 +443,15 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       [[Languages.ar.history.chapter]]
         text = "NOPSC was chartered in July 2014 by a small group of people organizing an event called #AStreetcarNamedGaza. This event was comprised of a streetcar solidarity ride, candlelight vigil, and march through the French Quarter that ultimately drew hundreds of participants and media attention from several outlets. It is the goal of NOPSC to build upon this movement, continuing to incorporate New Orleans’ culture and history of resistance into efforts to amplify Palestinian voices."
         src = "img/history/history-1.jpg"
+
+      [[Languages.ar.history.chapter]]
+        text = "In recognition of the gross human rights violations that have taken place at the expense of the Palestinian people for over seven decades, NOPSC’s top priority is to support both diasporic Palestinians, and those residing in Palestine itself. NOPSC recognizes that the institutions of power which perpetuate the continued occupation of Palestine are affected by the same hegemonic ideologies of racism and sexism that affect people of color, women, LGBTQ folks, the poor, the undocumented, and differently abled peoples everywhere."
+        src = "img/history/history-2.jpg"
+
+      [[Languages.ar.history.chapter]]
+        text = "With this understanding, NOPSC is dedicated to an intersectional solidarity that does not leave room for bigotry or hate. The organizers of NOPSC recognize that systems of oppression are impressed upon everyone throughout society, and that overcoming these prejudices is an ongoing process. NOPSC welcomes all those willing to work together in the struggle toward equity for all people. Focusing on Palestine, NOPSC aims to build upon past work in New Orleans, namely the organizing efforts of NOLAPS, to catalyze an ongoing movement in this city in solidarity against oppression."
+        src = "img/history/history-3.jpg"
+
+    [Languages.ar.festival]
+      title = "NOPSC Film Festival"
+      imgSrc = "img/festival/festival.jpg"

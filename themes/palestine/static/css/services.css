@@ -8,4 +8,12 @@
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-size: 97% 100%;
+  background-repeat: no-repeat;
+}
+
+.v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

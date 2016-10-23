@@ -111,3 +111,17 @@ a.dropdown-item.active {
   color: #000;
   background-color: #fff;
 }
+
+#notFound {
+  /*position: relative;*/
+  width: 100%;
+  min-height: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/notFound.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}

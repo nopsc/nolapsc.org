@@ -4,8 +4,11 @@
   <h2 class="">{{ .services.title }}</h2>
   <h6 class="m-b-2 m-t-1 text-muted">{{ .services.subtitle | markdownify }}</h6>
   {{ range .services.item }}
-    <div class="col-xs-12 col-sm-6 service-item m-x-0" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url({{$baseUrl}}{{.src}});">
-      <h1 class="m-t-3">{{ .title }}</h1>
+    <div class="col-xs-12 col-sm-6 service-item v-center m-t-1" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url({{$baseUrl}}{{.src}});background-position: center;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;">
+      <div>
+        <h1>{{ .title }}</h1>
+        <h6>{{ .subtitle}}</h6>
+      </div>
     </div>
   {{ end}}
   <div class="clearfix m-b-2"></div>
