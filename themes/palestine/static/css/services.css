@@ -3,13 +3,6 @@
   min-height: auto;
   text-align: center;
   color: #fff;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-size: 97% 100%;
-  background-repeat: no-repeat;
 }
 
 .v-center {

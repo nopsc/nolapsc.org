@@ -50,19 +50,12 @@
             $('#subscription-error').hide();
             $('#subscription-success').show();
           } else {
-            console.log("could not post");
           }
         }).fail(function(response) {
-          console.log("error posting");
-          console.log(response);
-          if(response.responseJSON) {
-            var errors = response.responseJSON;
-
             $("#subscription-form-group").addClass("has-danger");
             $("#subscription-email").addClass("form-control-danger");
             $("#subscription-error").show();
             $("#subscription-success").hide();
-          }
         })
 
         return false;
@@ -77,6 +70,6 @@
         element.attachEvent('on' + eventName, fn);
     }
 
-    addEvent(window, 'load', subscribe);
+    addEvent(window, 'load', function() { $(document).ready(subscribe) });
   </script>
 {{ end }}
