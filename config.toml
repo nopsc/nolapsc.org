@@ -9,8 +9,8 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
 
 [params]
   [params.api]
-    # url = "https://sheltered-ocean-72015.herokuapp.com"
-    url = "http://localhost:3000"
+    url = "https://sheltered-ocean-72015.herokuapp.com"
+    # url = "http://localhost:3000"
     signaturesEndpoint = "/signatures"
     subscribeEndpoint = "/mail_subscribers"
 
