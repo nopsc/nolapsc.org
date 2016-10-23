@@ -242,9 +242,9 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
   ##############################################################################
 
   [Languages.ar]
-    weight = 1
+    weight = 2
     title = "New Orleans Palestinian Solidarity Committee"
-    languageName = "English"
+    languageName = "العربية"
 
     [Languages.ar.footer]
       facebookUrl = "https://www.facebook.com/neworleanspalestiniansolidaritycommittee/"
