@@ -3,6 +3,8 @@
 *.a
 *.so
 
+/scripts
+
 # Folders
 _obj
 _test
