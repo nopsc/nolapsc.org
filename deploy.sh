@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# ssh-agent bash
+# ssh-add ~/.ssh/info_nolapsc
+
 # Copy over theme files
 rm -rf themes/palestine
 rsync -av --progress ../hugo-palestine-theme themes --exclude .git
