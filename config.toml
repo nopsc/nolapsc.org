@@ -1,7 +1,7 @@
 baseurl = "https://www.nolapsc.org/"
 languageCode = "en-us"
 title = "New Orleans Palestinian Solidarity Committee"
-author = "Marvin Arnold"
+author = "New Orleans Palestinian Solidarity Committee"
 theme = "palestine"
 DefaultContentLanguage = "en"
 copyright = "BDS & MIT"
