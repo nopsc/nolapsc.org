@@ -123,7 +123,7 @@ New Orleans is a social justice city that should no longer support segregation o
       alreadySigned = "signatures collected"
       readMore = "Read full petition"
       modalBack = "Back to petition"
-      successTitle = "You're a boss"
+      successTitle = "You're a boss!"
       successSubtitle = "Thanks for being a fellow human rights defender"
       successButton = "Sign again"
       text = """We must remove all products and divest from all companies directly supporting the illegal Israeli occupation of Palestine.
@@ -217,20 +217,22 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
         subtitle = "We hold open community meetings once a month for those interested in playing a direct role in Palestinian solidarity work in the Greater New Orleans area."
         src = "img/services/community.jpg"
 
+  #########################################################################################
+  ## History
     [Languages.en.history]
       title = "NOPSC History"
 
       [[Languages.en.history.chapter]]
         text = "NOPSC was chartered in July 2014 by a small group of people organizing an event called #AStreetcarNamedGaza. This event was comprised of a streetcar solidarity ride, candlelight vigil, and march through the French Quarter that ultimately drew hundreds of participants and media attention from several outlets. It is the goal of NOPSC to build upon this movement, continuing to incorporate New Orleans’ culture and history of resistance into efforts to amplify Palestinian voices."
-        src = "img/history/history-1.jpg"
+        src = "img/history/history-1-square.jpg"
 
       [[Languages.en.history.chapter]]
         text = "In recognition of the gross human rights violations that have taken place at the expense of the Palestinian people for over seven decades, NOPSC’s top priority is to support both diasporic Palestinians, and those residing in Palestine itself. NOPSC recognizes that the institutions of power which perpetuate the continued occupation of Palestine are affected by the same hegemonic ideologies of racism and sexism that affect people of color, women, LGBTQ folks, the poor, the undocumented, and differently abled peoples everywhere."
-        src = "img/history/history-2.jpg"
+        src = "img/history/history-2-square.jpg"
 
       [[Languages.en.history.chapter]]
         text = "With this understanding, NOPSC is dedicated to an intersectional solidarity that does not leave room for bigotry or hate. The organizers of NOPSC recognize that systems of oppression are impressed upon everyone throughout society, and that overcoming these prejudices is an ongoing process. NOPSC welcomes all those willing to work together in the struggle toward equity for all people. Focusing on Palestine, NOPSC aims to build upon past work in New Orleans, namely the organizing efforts of NOLAPS, to catalyze an ongoing movement in this city in solidarity against oppression."
-        src = "img/history/history-3.jpg"
+        src = "img/history/history-3-square.jpg"
 
     [Languages.en.festival]
       title = "NOPSC Film Festival"
