@@ -48,7 +48,8 @@ button.btn-info {
 }
 
 .bg-success,
-button.btn.btn-success {
+button.btn.btn-success,
+a.btn.btn-success {
   background-color: #00a652;
 }
 
@@ -112,13 +113,19 @@ a.dropdown-item.active {
   background-color: #fff;
 }
 
+#notFound h1 {
+  margin-bottom: 20rem;
+}
+
 #notFound {
   /*position: relative;*/
-  width: 100%;
-  min-height: auto;
+  /*width: 100%;*/
+  /*min-height: 100%;*/
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   text-align: center;
   color: #fff;
-  background-image: url(../img/notFound.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/404.jpg);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

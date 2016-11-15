@@ -1,9 +1,15 @@
-{{ partial "shared/top.html" . }}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  <head>
+    {{ partial "shared/header.html" . }}
+  </head>
+  <body>
 
-{{ partial "sections/banner.html" (dict "banner" .Site.Params.banner "Site" .Site) }}
-{{ partial "sections/issues.html" (dict "issues" .Site.Params.issues "Site" .Site "Scratch" $.Scratch) }}
-{{ partial "sections/petition.html" (dict "petition" .Site.Params.petition "Site" .Site) }}
-{{ partial "sections/experience.html" (dict "experience" .Site.Params.experience "Site" .Site) }}
-{{ partial "shared/do.html" (dict "do" .Site.Params.do "Site" .Site) }}
+    <div class="container text-xs-center">
+      <h2 class="m-t-3">New Orleans Palestinian Solidarity Committee</h2>
+      <h1 class="">Film Festival</h1>
+      <a href="https://www.eventbrite.com/e/2nd-annual-new-orleans-palestinian-film-festival-tickets-29033198077" class="btn btn-success btn-lg m-t-1" target="_blank">Get tickets now!</a>
+      <img class="img-fluid m-t-3" src="/img/festival/nopffFINAL.jpg" />
+    </div>
 
 {{ partial "shared/bottom.html" . }}

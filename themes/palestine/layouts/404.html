@@ -1,10 +1,16 @@
-{{ partial "shared/top.html" . }}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  <head>
+    {{ partial "shared/header.html" . }}
+  </head>
+  <body>
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-3">Page not found</h1>
-    <p class="lead">Maybe you are looking for Palestine.</p>
+  <div id="notFound">
+    <div class="container">
+      <h1 class="text-danger display-4">Page not found</h1>
+      <h2 class="text-success display-3">Did you mean to type Palestine?</h2>
+    </div>
   </div>
-</div>
+
 
 {{ partial "shared/bottom.html" . }}
