@@ -31,8 +31,8 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
       email = "info@nolapsc.org"
       twitterUrl = "https://twitter.com/nopsc"
       githubUrl = "https://github.com/nopsc"
-      publicKeyUrl = "/info_pub.asc"
-      fingerprint = "4193 BF29 6F07 C201 6332  FE82 192D ACB7 1081 DC37"
+      publicKeyUrl = "info_pub.asc"
+      fingerprint = "4193 BF29 6F07 C201 6332 FE82 192D ACB7 1081 DC37"
 
     ############################################################################
     # Start Homepage
