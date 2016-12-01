@@ -8,9 +8,9 @@ before_script:
 
 pages:
   script:
-    - /usr/bin/hugo -v
+  - /usr/bin/hugo -v
   artifacts:
     paths:
     - public
   only:
-- master
+  - master
