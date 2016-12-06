@@ -1,11 +1,11 @@
 image: alpine
-asdf
+
 before_script:
   - apk update && apk add openssl
   - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz
   - tar -zxvf hugo_0.17_Linux-64bit.tar.gz && cp ./hugo_0.17_linux_amd64/hugo_0.17_linux_amd64 /usr/bin/hugo
   - /usr/bin/hugo version
-asdf
+
 pages:
   script:
   - /usr/bin/hugo -v
@@ -14,4 +14,3 @@ pages:
     - public
   only:
   - master
-asdf
