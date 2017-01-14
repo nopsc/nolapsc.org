@@ -1,0 +1,26 @@
+      {{ partial "shared/footer.html" (dict "footer" .Site.Params.footer "Site" .Site) }}
+
+      <!-- jQuery first, then Tether, then Bootstrap JS. -->
+      <script src="/bootstrap/jquery.min.js"></script>
+      <script src="/bootstrap/tether.min.js"></script>
+      <script src="/bootstrap/bootstrap.min.js"></script>
+
+      {{ if $.Site.Params.piwik.url }}
+        <!-- Piwik -->
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          _paq.push(['setTrackerUrl',  {{$.Site.Params.piwik.url}}]);
+          _paq.push(['setSiteId', {{$.Site.Params.piwik.siteId}}]);
+          _paq.push(['setApiToken', {{$.Site.Params.piwik.apiToken}}]);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.defer=true; g.src= {{$.Site.Params.piwik.srcUrl}}; s.parentNode.insertBefore(g,s);
+        })();
+        </script>
+        <!-- End Piwik Code -->
+      {{ end }}
+
+  </body>
+</html>

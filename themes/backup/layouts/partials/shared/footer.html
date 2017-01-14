@@ -1,0 +1,26 @@
+{{ $baseUrl := .Site.BaseURL }}
+
+<section name="footer" class="text-xs-center p-y-2 footer-section navbar-dark bg-inverse" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-2 offset-xs-2">
+        <h3><a href="{{ .footer.facebookUrl }}" class="footer-link"><i class="icon ion-social-facebook"></i></a></h3>
+      </div>
+      <div class="col-xs-2">
+        <h3><a href="mailto:{{ .footer.email }}" class="footer-link"><i class="icon ion-email"></i></a></h3>
+      </div>
+      <div class="col-xs-2">
+        <h3><a href="{{ .footer.twitterUrl }}" class="footer-link"><i class="icon ion-social-twitter"></i></a></h3>
+      </div>
+      <div class="col-xs-2">
+        <h3><a href="{{ .footer.githubUrl }}" class="footer-link"><i class="icon ion-social-github"></i></a></h3>
+      </div>
+    </div>
+
+    <div class="row m-y-1">
+      <a href="{{ $baseUrl }}{{ .footer.publicKeyUrl }}" class="text-muted">PGP: {{ .footer.fingerprint }}</a>
+    </div>
+
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+  </div>
+</section>

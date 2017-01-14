@@ -24,11 +24,11 @@ git add .
 git commit -m "$1"
 git push origin master
 
-# Commit and deploy api server to heroku
-cd ../nopsc_api
-git add .
-git commit -m "$1"
-git push origin master
-git push heroku master
+# # Commit and deploy api server to heroku
+# cd ../nopsc_api
+# git add .
+# git commit -m "$1"
+# git push origin master
+# git push heroku master
 
 cd ../nolapsc.org

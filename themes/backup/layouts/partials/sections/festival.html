@@ -1,0 +1,6 @@
+{{ $baseUrl := .Site.BaseURL }}
+
+<div class="container text-xs-center">
+  <h1>{{ .festival.title }}</h1>
+  <img src="{{ $baseUrl }}{{ .festival.imgSrc }}" class="img-fluid m-x-auto m-b-2" />
+</div>

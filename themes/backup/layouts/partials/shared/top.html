@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  <head>
+    {{ partial "shared/header.html" . }}
+  </head>
+  <body>
+    {{ partial "shared/language-picker.html" . }}
+    {{ partial "shared/navbar.html" . }}
