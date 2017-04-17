@@ -1,7 +1,9 @@
 # Deploy
 
 ## Let's Encrypt
-./letsencrypt-auto certonly -a manual -d nolapsc.org -d www.nolapsc.org
+sudo ./letsencrypt-auto certonly -a manual -d nolapsc.org -d www.nolapsc.org
+cd /etc/letsencrypt/live/nolapsc.org/
+
 Make sure your web server displays the following content at
 http://nolapsc.org/.well-known/acme-challenge/ti9EKRxTjsOrjs4T8bYb6A10mQs1KNuusre-a6ZUfYM before continuing:
 
