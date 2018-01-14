@@ -79,6 +79,11 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
       action = "Take action"
       actionLink = "en/#petition"
 
+    [Languages.en.news]
+      title = "BREAKING NEWS: Human Rights Resolution"
+      action = "Click here to read more"
+      actionpath = "HumanRightsResolutionNOPSC.pdf"
+
     [[Languages.en.issues]]
       title = "Palestinian Liberation"
       src = "/img/home/issues/liberation.jpg"
@@ -300,6 +305,11 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       subtitle = "to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
       action = "Take action"
       actionLink = "en/#petition"
+
+    [Languages.ar.news]
+      title = "BREAKING NEWS: Human Rights Resolution"
+      action = "Click here to read more"
+      actionpath = "HumanRightsResolutionNOPSC.pdf"
 
     [[Languages.ar.issues]]
       title = "Palestinian Liberation"

@@ -1,5 +1,6 @@
 {{ partial "shared/top.html" . }}
 
+{{ partial "sections/news.html" (dict "news" .Site.Params.news "Site" .Site) }}
 {{ partial "sections/banner.html" (dict "banner" .Site.Params.banner "Site" .Site) }}
 {{ partial "sections/issues.html" (dict "issues" .Site.Params.issues "Site" .Site "Scratch" $.Scratch) }}
 {{ partial "sections/petition.html" (dict "petition" .Site.Params.petition "Site" .Site) }}
