@@ -2,6 +2,8 @@
 
 ## Let's Encrypt
 sudo ./letsencrypt-auto certonly -a manual -d nolapsc.org -d www.nolapsc.org
+sudo less /etc/letsencrypt/live/nolapsc.org/fullchain.pem
+sudo less /etc/letsencrypt/live/nolapsc.org/privkey.pem
 cd /etc/letsencrypt/live/nolapsc.org/
 
 Make sure your web server displays the following content at
