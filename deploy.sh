@@ -11,8 +11,8 @@ mv themes/hugo-palestine-theme themes/palestine
 # Commit and push website
 git add .
 git commit -m "$1"
-#git push production master
-#git push origin master
+git push production master
+git push origin master
 
 # Remove theme and use symbolic link for faster development
 rm -rf themes/palestine
@@ -22,7 +22,7 @@ ln -s ../../hugo-palestine-theme/ themes/palestine
 cd ../hugo-palestine-theme
 git add .
 git commit -m "$1"
-#git push origin master
+git push origin master
 
 # # Commit and deploy api server to heroku
 # cd ../nopsc_api

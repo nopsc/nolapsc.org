@@ -1,13 +1,13 @@
 {{ partial "shared/top.html" . }}
-
-  <h2 class="m-b-2">{{ .abouthumanrights.title }}</h2>
+<div class="container">
+<h1>NOPSC's Human Rights Campaign</h1>
 
   <div id="carousel-human-rights" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
       {{ $baseUrl := .Site.BaseURL }}
 
       <div class="carousel-item active">
-        <img src="{{ $baseUrl }}{{ .abouthumanrights.firstItemSrc }}" class="m-x-auto humanrights-item" alt="Experience NOPSC">
+        <img src="/img/human-rights/nopsc-humanrights-1.jpg" class="m-x-auto humanrights-item" alt="About NOPSC Human Rights Campaign">
       </div>
 
     </div>
@@ -20,5 +20,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
+
 
 {{ partial "shared/bottom.html" . }}
