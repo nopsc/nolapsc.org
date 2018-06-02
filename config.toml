@@ -247,38 +247,38 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
   ## Human Rights Campaign
 
     [[Languages.en.menu.navbar]]
-      identifier = "humanrights"
-      url = "/en/human-rights"
+      identifier = "human-rights"
+      url = "/human-rights"
       name   = "Human Rights Campaign"
       weight = 1
 
     [[Languages.en.menu.navbar]]
-      parent = "humanrights"
-      url = "/en/human-rights"
+      parent = "human-rights"
+      url = "/human-rights"
       name   = "About"
       weight = 2
 
     [[Languages.en.menu.navbar]]
-      parent = "humanrights"
-      url = "/en/humanrights/#timeline"
+      parent = "human-rights"
+      url = "/human-rights/timeline"
       name   = "Timeline"
       weight = 3
 
     [[Languages.en.menu.navbar]]
-      parent = "humanrights"
-      url = "/en/humanrights/#news"
+      parent = "human-rights"
+      url = "/en/human-rightsnews"
       name   = "In the News"
       weight = 4
 
     [[Languages.en.menu.navbar]]
-      parent = "humanrights"
-      url = "/en/humanrights/#statements"
+      parent = "human-rights"
+      url = "/human-rights/statements"
       name   = "Stataments"
       weight = 5
 
     [[Languages.en.menu.navbar]]
-      parent = "humanrights"
-      url = "/en/humanrights/#video"
+      parent = "human-rights"
+      url = "/en/human-rights/video"
       name   = "Video"
       weight = 6
 
