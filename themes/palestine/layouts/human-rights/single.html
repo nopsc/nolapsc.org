@@ -1,24 +1,24 @@
 {{ partial "shared/top.html" . }}
 
-<h1>NOPSC's Human Rights Campaign</h1>
+  <h2 class="m-b-2">{{ .abouthumanrights.title }}</h2>
 
-    <div id="carousel-human-rights" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        {{ $baseUrl := .Site.BaseURL }}
+  <div id="carousel-human-rights" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      {{ $baseUrl := .Site.BaseURL }}
 
-        <div class="carousel-item active">
-          <img src="/img/human-rights/nopsc-humanrights-1.jpg" class="m-x-auto humanrights-item" alt="Experience NOPSC">
-        </div>
-
+      <div class="carousel-item active">
+        <img src="{{ $baseUrl }}{{ .abouthumanrights.firstItemSrc }}" class="m-x-auto humanrights-item" alt="Experience NOPSC">
       </div>
-      <a class="left carousel-control" href="#carousel-human-rights" role="button" data-slide="prev">
-        <span class="icon-prev" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-human-rights" role="button" data-slide="next">
-        <span class="icon-next" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
     </div>
+    <a class="left carousel-control" href="#carousel-human-rights" role="button" data-slide="prev">
+      <span class="icon-prev" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-human-rights" role="button" data-slide="next">
+      <span class="icon-next" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
 {{ partial "shared/bottom.html" . }}

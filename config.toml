@@ -284,7 +284,13 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
 
     [Languages.en.abouthumanrights]
       title = "About the NOPSC Human Rights Campaign"
+      firstItemSrc = "/img/human-rights/nopsc-humanrights-1.jpg"
 
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/slide-film-festival.jpg"
+
+      [[Languages.en.experience.item]]
+        src = "/img/home/experiences/slide-boycott.jpg"
   ##############################################################################
   ##############################################################################
   ##############################################################################
