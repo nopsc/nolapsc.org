@@ -243,6 +243,48 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
       title = "NOPSC Film Festival"
       imgSrc = "img/festival/festival.jpg"
 
+  #########################################################################################
+  ## Human Rights Campaign
+
+    [[Languages.en.menu.navbar]]
+      identifier = "humanrights"
+      url = "/en/"
+      name   = "Human Rights Campaign"
+      weight = 1
+
+    [[Languages.en.menu.navbar]]
+      parent = "humanrights"
+      url = "/en/human-rights/about"
+      name   = "About"
+      weight = 2
+
+    [[Languages.en.menu.navbar]]
+      parent = "humanrights"
+      url = "/en/humanrights/#timeline"
+      name   = "Timeline"
+      weight = 3
+
+    [[Languages.en.menu.navbar]]
+      parent = "humanrights"
+      url = "/en/humanrights/#news"
+      name   = "In the News"
+      weight = 4
+
+    [[Languages.en.menu.navbar]]
+      parent = "humanrights"
+      url = "/en/humanrights/#statements"
+      name   = "Stataments"
+      weight = 5
+
+    [[Languages.en.menu.navbar]]
+      parent = "humanrights"
+      url = "/en/humanrights/#video"
+      name   = "Video"
+      weight = 6
+
+    [Languages.en.abouthumanrights]
+      title = "About the NOPSC Human Rights Campaign"
+
   ##############################################################################
   ##############################################################################
   ##############################################################################
