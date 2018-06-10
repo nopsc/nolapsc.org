@@ -80,9 +80,9 @@ DefaultContentLanguageInSubdir = true # Do not remove or language links will bre
       actionLink = "en/#petition"
 
     [Languages.en.news]
-      title = "BREAKING NEWS: Human Rights Resolution"
+      title = "Recent Updates: NOPSC Human Rights Campaign"
       action = "Click here to read more"
-      actionpath = "HumanRightsResolutionNOPSC.pdf"
+      actionpath = "/human-rights"
 
     [[Languages.en.issues]]
       title = "Palestinian Liberation"
@@ -273,13 +273,13 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
     [[Languages.en.menu.navbar]]
       parent = "human-rights"
       url = "/human-rights/statements"
-      name   = "Stataments"
+      name   = "Statements"
       weight = 5
 
     [[Languages.en.menu.navbar]]
       parent = "human-rights"
-      url = "/human-rights/video"
-      name   = "Video"
+      url = "/human-rights/resources"
+      name   = "Resources"
       weight = 6
 
     [Languages.en.abouthumanrights]
