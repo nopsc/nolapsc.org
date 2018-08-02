@@ -1,5 +1,5 @@
 baseurl = "https://www.nolapsc.org/"
-languageCode = "en-us"
+languageCode = "en"
 title = "New Orleans Palestinian Solidarity Committee"
 author = "New Orleans Palestinian Solidarity Committee"
 theme = "palestine"
@@ -284,7 +284,7 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
 
     [Languages.en.abouthumanrights]
       title = "About the NOPSC Human Rights Campaign"
-      firstItemSrc = "/img/human-rights/nopsc-humanrights-1.jpg"
+      firstItemSrc = "/img/human-rights/about/humanrights-about-1.jpg"
 
 
   ##############################################################################
