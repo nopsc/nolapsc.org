@@ -8,6 +8,7 @@ rm -rf themes/palestine
 rsync -av --progress ../hugo-palestine-theme themes --exclude .git
 mv themes/hugo-palestine-theme themes/palestine
 
+rm -rf public/*
 hugo
 cp -r public/* .
 
