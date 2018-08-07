@@ -1,0 +1,11 @@
+.service-item {
+  min-height: 12rem;
+  text-align: center;
+  color: #fff;
+}
+
+.v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

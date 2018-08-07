@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Orleans Palestinian Solidarity Committee</title>
+    <link>https://nolapsc.org/en/index.xml</link>
+    <description>Recent content on New Orleans Palestinian Solidarity Committee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>BDS &amp; MIT</copyright>
+    <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
+    <atom:link href="https://nolapsc.org/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>History</title>
+      <link>https://nolapsc.org/en/history/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/en/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://nolapsc.org/programming/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Human Rights Campaign</title>
+      <link>https://nolapsc.org/human-rights/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/human-rights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Campaign Statements</title>
+      <link>https://nolapsc.org/human-rights/statements</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/human-rights/statements</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Campaign Timeline</title>
+      <link>https://nolapsc.org/human-rights/timeline</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/human-rights/timeline</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Campaign News</title>
+      <link>https://nolapsc.org/human-rights/news</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/human-rights/news</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Campaign Resources</title>
+      <link>https://nolapsc.org/human-rights/resources</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/human-rights/resources</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Encrypt</title>
+      <link>https://nolapsc.org/.well-known/acme-challenge/pormxftrrbwsrhrlvg6vf8reulvb5wl-1tyyhf7bbcc</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/.well-known/acme-challenge/pormxftrrbwsrhrlvg6vf8reulvb5wl-1tyyhf7bbcc</guid>
+      <description>&lt;p&gt;pORMxFTRRBWSRhrlvg6VF8rEULvb5wL-1tyyhf7bbCc.1lbWZ6KPCBTzz4-SiKR1Ilx6LtwpY4PbPhVRvKnAiVg&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Encrypt</title>
+      <link>https://nolapsc.org/.well-known/acme-challenge/kvoip5mg1h3me_8brern3bmt1n_h7gqso-gcxqkzdey</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://nolapsc.org/.well-known/acme-challenge/kvoip5mg1h3me_8brern3bmt1n_h7gqso-gcxqkzdey</guid>
+      <description>&lt;p&gt;kVoIP5Mg1h3Me_8bRErN3bMt1n_H7gQso-GcxqkZDEY.1lbWZ6KPCBTzz4-SiKR1Ilx6LtwpY4PbPhVRvKnAiVg&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
