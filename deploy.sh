@@ -8,9 +8,8 @@ rm -rf themes/palestine
 rsync -av --progress ../hugo-palestine-theme themes --exclude .git
 mv themes/hugo-palestine-theme themes/palestine
 
-rm -rf gh-pages/*
 hugo
-cp -r public/* gh-pages
+cp -r public/* .
 
 # Commit and push website
 git add .
