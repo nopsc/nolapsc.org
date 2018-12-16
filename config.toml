@@ -293,8 +293,8 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
   ##############################################################################
 
   [Languages.ar]
-    weight = 2
-    title = "New Orleans Palestinian Solidarity Committee"
+    weight = 3
+    title = "لجنة التضامن الفلسطيني في نيو اورليانز"
     languageName = "العربية"
 
     [Languages.ar.footer]
@@ -309,115 +309,121 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
     # Start Homepage
     [[Languages.ar.menu.navbar]]
       identifier = "about"
-      url = "/en/"
-      name   = "About NOPSC"
+      url = "/ar/"
+      name   = "NOPSC حول"
       weight = 1
 
     [[Languages.ar.menu.navbar]]
       parent = "about"
-      url = "/en/#mission"
-      name   = "Mission"
+      url = "/ar/#mission"
+      name   = "المهمة"
       weight = 2
 
     [[Languages.ar.menu.navbar]]
       parent = "about"
-      url = "/en/#issues"
-      name   = "Issues"
+      url = "/ar/#issues"
+      name   = "القضايا"
       weight = 3
 
     [[Languages.ar.menu.navbar]]
       parent = "about"
-      url = "/en/#petition"
-      name   = "Petition"
+      url = "/ar/#petition"
+      name   = "عريضة"
       weight = 4
 
     [[Languages.ar.menu.navbar]]
       parent = "about"
-      url = "/en/#experience"
-      name   = "Experience"
+      url = "/ar/#experience"
+      name   = "تجربة"
       weight = 5
 
     [[Languages.ar.menu.navbar]]
       parent = "about"
-      url = "/en/#do"
-      name   = "Get Involved"
+      url = "/ar/#do"
+      name   = "شارك"
       weight = 6
 
     [Languages.ar.banner]
-      teaser = "It is the mission of the"
-      title = "New Orleans Palestinian Solidarity Committee"
-      subtitle = "to foster equitable, sustainable, and intersectional community action to support the freedom and empowerment of Palestinians in Palestine and in the Greater New Orleans area."
-      action = "Take action"
+      teaser = "إن مهمة"
+      title = "لجنة التضامن الفلسطيني في نيو اورليانز"
+      subtitle = "هي تعزيز العمل المجتمعي العادل والمستدام والمتداخل لدعم حرية وتمكين الفلسطينيين في فلسطين وفي منطقة نيو أورليانز‫.‬"
+      action = "خذ إجراءات"
       actionLink = "en/#petition"
 
     [Languages.ar.news]
-      title = "BREAKING NEWS: Human Rights Resolution"
-      action = "Click here to read more"
+      title = "خبر عاجل: قرار حقوق الإنسانية"
+      action = "اضغط هنا لتقرأ ازود"
       actionpath = "HumanRightsResolutionNOPSC.pdf"
 
     [[Languages.ar.issues]]
-      title = "Palestinian Liberation"
+      title = "التحرير الفلسطيني"
       src = "/img/home/issues/liberation.jpg"
-      subtitle = "The Palestinian people have a right to self-determination and deserve full human rights."
+      subtitle = "الشعب الفلسطيني الهم حق بتقرير مصيرهم و يستحق حقوق الانسان الكامله "
 
     [[Languages.ar.issues]]
-      title = "Intersectional Solidarity"
+      title = "التضامن المتداخل"
       src = "/img/home/issues/multicultural.jpg"
-      subtitle = "There is no place for discrimination in our movement because none of us will be free until all of us are free."
+      subtitle = "لا يوجد مكان للتمييز في حركتنا لان ما حده منا لن يكون حرا حتى نتحرر جميعنا‫.‬"
 
     [[Languages.ar.issues]]
-      title = "Black-Palestinian Solidarity"
+      title = "تضامن السود‫-‬الفلسطيني"
       src = "/img/home/issues/blacks.jpg"
-      subtitle = "Current struggles exist on a spectrum that begins with and must prioritize anti-Black racism."
+      subtitle = "النضالات الحاليه موجوده على نطاق يبدا و يعين العنصريه ضد السود‫.‬"
 
     [[Languages.ar.issues]]
-      title = "Middle East Human Rights"
+      title = "حقوق الانسانيه في الشرق الاوسط"
       src = "/img/home/issues/middle-east.jpg"
-      subtitle = "The same colonial remnants that impact daily life in Palestine are those which have led to turmoil in places like Syria and Lebanon."
+      subtitle = "نفس البقايا الاستعماريه التي تؤثر على الحياه اليوميه في فلسطين هي تلك التي ادت الى الضطرابات في اماكن مثل سوريا و لبنان‫.‬ "
 
     [[Languages.ar.issues]]
-      title = "Palestinian Right of Return"
+      title = "حقوق لرجوع الفلسطينيه"
       src = "/img/home/issues/return.jpg"
-      subtitle = "Nearly one million Palestinians and their descendants were displaced as a result of the 1948 massacre."
+      subtitle = "نزح ما يقرب من مليون فلسطيني واحفادهم نتيجه لمذبحه ١٩٤٨‫.‬"
 
     [[Languages.ar.issues]]
-      title = "Boycott, Divestment, and Sanctions (BDS)"
+      title = "بويقاط، ديفسمنت، سينكشنز (BDS)"
       src = "/img/home/issues/bds.jpg"
-      subtitle = "BDS has worked successfully for the South African Anti-Apartheid and US Civil Rights movements."
+      subtitle = " عملت ال‫(BDS)‬نجحت بي ولايات في افريكيه و حرقه المدنيه الامريكيه ‫.‬  "
 
     [Languages.ar.petition]
-      title = "Petition the New Orleans City Council"
-      subtitle = """The City of New Orleans should use the full extent of the law to seek competitive suppliers of goods and services who do not have investments, licenses or operations in Israel.
+      title = "التماس مجلس مدينه نيو اورلينز"
+      subtitle = """مدينه نيو اورلينز لازم تستخدم المدى الكامل للقانون للحصول على موردين منافسين للسلع و الخدمات الذين ليس لديهم استثمارات او تراخيص او عمليات قي اسرائيل‫.‬
 
-New Orleans is a social justice city that should no longer support segregation or racism. With your support, we can make New Orleans an Apartheid-Free City."""
-      name = "Name"
-      email = "Email"
-      emailTaken = "Email address already used."
-      zip = "ZIP"
-      mailList = "Mailing list opt-in"
-      button = "I stand with Palestine"
-      alreadySigned = "signatures collected"
-      readMore = "Read full petition"
-      modalBack = "Back to petition"
-      successTitle = "You're a boss"
-      successSubtitle = "Thanks for being a fellow human rights defender"
-      successButton = "Sign again"
-      text = """We must remove all products and divest from all companies directly supporting the illegal Israeli occupation of Palestine.
+نيو اورلينز هي مدينه العداله الاجتماعيه التي ينبغي ان تدعم الفضل او العنصريه. مع دعمكم، يمكننا ان نجعل نيو اورلينز و مينى فرايد باي."""
+      name = "الاسم"
+      email = "الايميل"
+      emailTaken = " عنوان الايميل مستخدم‫.‬"
+      zip = "الرمز البريدي"
+      mailList = "اختيار القائمة البريدية"
+      button = "اقف مع فلسطين"
+      alreadySigned = "التوقيعات التي تم جمعها"
+      readMore = "قراءة الالتماس الكامل"
+      modalBack = "العودة إلى العريضة"
+      successTitle = "انت معلم"
+      successSubtitle = "شكرا لكونك مدافعا عن حقوق الإنسان"
+      successButton = "وقع كمان مره"
+      text = """.يجب إزالة جميع المنتجات والتخلص من جميع الشركات التي تدعم بشكل مباشر الاحتلال الإسرائيلي غير القانوني لفلسطين
 
-Israel illegally confiscates privately owned Palestinian property; imprisons Palestinian citizens for years without charge; and uses checkpoints to restrict the movement of Palestinians, even during childbirths and medical emergencies.
 
-In Gaza, the situation is even worse because citizens are denied access to food and medicine due to the Israeli-imposed blockade. The infrastructure also has not been rebuilt since the 51-day assault on Gaza in 2014, Operation Protective Edge, which killed nearly 1,500 civilians.
+تصادر إسرائيل بشكل غير قانوني الممتلكات الفلسطينية الخاصة. تسجن المواطنين الفلسطينيين لسنوات دون تهمة ؛ ويستخدم نقاط التفتيش لتقييد حركة الفلسطينيين ، حتى أثناء الولادة وحالات الطوارئ الطبية‪.‬
 
-Since its recognition as a state in 1949, Israel has violated over 30 United Nations Security Council resolution, which are legally binding.
 
-In 2015, the United States gave Israel $10.2 million a day in military aid alone. That means that last year the US spent nearly $4 billion on Israel’s military. This funding, provided by American taxpayers, allows the military to maintain it’s illegal occupation of Palestine, carry out military assaults on Gaza, and use military grade weaponry to “police” Palestinian territory.
+في غزة ، الوضع أسوأ لأن المواطنين محرومون من الوصول إلى الطعام والدواء بسبب الحصار الإسرائيلي. كما لم يتم إعادة بناء البنية التحتية منذ الهجوم الذي استمر 51 يومًا على غزة في عام 2014 ، عملية الجرف الصامد ، التي أودت بحياة ما يقرب من 1500 مدني.
 
-The city council has the opportunity to make known their grave concern regarding Israel’s official system of segregation and repression of non-white Jewish Israeli citizens, Israeli citizens of Palestinian descent, and Palestinians living in the West Bank and Gaza. New Orleans should no longer be party to contracts, licenses, or investments with the apartheid state of Israel. Consumer goods contributing to the illegal Israeli occupation must also be banned.
 
-Sign here to urge city council to act now to declare New Orleans an Apartheid-Free City."""
+منذ اعترافها كدولة في عام 1949 ، انتهكت إسرائيل أكثر من 30 قرارًا من مجلس الأمن التابع للأمم المتحدة ، وهو أمر ملزم قانونًا.
+
+
+في عام 2015 ، منحت الولايات المتحدة إسرائيل 10.2 مليون دولار يومياً كمساعدات عسكرية. وهذا يعني أن الولايات المتحدة أنفقت العام الماضي ما يقرب من 4 مليارات دولار على الجيش الإسرائيلي. هذا التمويل ، الذي يقدمه دافعو الضرائب الأمريكيون ، يسمح للجيش بالاحتفاظ باحتلاله غير الشرعي لفلسطين ، وتنفيذ هجمات عسكرية على غزة ، واستخدام الأسلحة العسكرية في "الشرطة" للأراضي الفلسطينية.
+
+
+ولدى مجلس المدينة فرصة للتعريف بقلقه الشديد فيما يتعلق بنظام الفصل العنصري الإسرائيلي الرسمي وقمع المواطنين الإسرائيليين من غير البيض ، والمواطنين الإسرائيليين من أصل فلسطيني ، والفلسطينيين الذين يعيشون في الضفة الغربية وغزة. يجب ألا تكون نيو أورليانز طرفًا في العقود أو التراخيص أو الاستثمارات مع دولة إسرائيل العنصرية. كما يجب حظر السلع الاستهلاكية التي تساهم في الاحتلال الإسرائيلي غير القانوني.
+
+
+وقع هنا لحث مجلس المدينة على التصرف الآن لإعلان مدينة نيو أورلينز مدينة خالية من الفصل العنصري."""
 
     [Languages.ar.experience]
-      title = "Experience NOPSC"
+      title = "NOPSCتجربة"
       firstItemSrc = "/img/home/experiences/slide-crowd.jpg"
 
       [[Languages.ar.experience.item]]
@@ -448,66 +454,109 @@ Sign here to urge city council to act now to declare New Orleans an Apartheid-Fr
     ############################################################################
 
     [Languages.ar.do]
-      title = "Do something."
-      newsletterTitle = "Join our mailing list"
-      newsletterEmail = "Email"
-      newsletterTip = "Only important stuff. Really."
-      newsletterButton = "Sign up"
-      newsletterError = "Email already signed up."
-      newsletterSuccess = "Thanks, we'll be in touch."
-      donateButton = "Donate to NOPSC"
+      title = ".انضم و افعل شيئًا"
+      newsletterTitle = "انضم لقائمتنا البريدية"
+      newsletterEmail = "ايميل"
+      newsletterTip = "الاشياء الهامة فقط. هل حقا."
+      newsletterButton = "سجل"
+      newsletterError = ".البريد الإلكتروني المسجل بالفعل."
+      newsletterSuccess = ".شكرًا ، سنتواصل معك."
+      donateButton = "NOPSCتبرع ل"
       btcTitle = "Bitcoin:"
       btcAddr = "1Dbfgq9CUDif8uASQV38ubqz1zC8zKg4q2"
 
     [Languages.ar.services]
-      title = "Programming"
-      subtitle = "If you would like to request one of our program offerings or would like more information please send us an email at [info@nolapsc.org](mailto:info@nolapsc.org)."
+      title = "برمجة"
+      subtitle = "إذا كنت ترغب في طلب أحد عروض برنامجنا أو ترغب في الحصول على مزيد من المعلومات ، فيرجى إرسال بريد إلكتروني إلينا على [info@nolapsc.org](mailto:info@nolapsc.org)."
 
       [[Languages.ar.services.item]]
-        title = "Teach-Ins"
-        subtitle = "We host popular education gatherings for anyone with a deep understanding of key issues surrounding Palestinian human rights to both share and receive knowledge from the community."
+        title = "تعليم الإضافية"
+        subtitle = "نستضيف تجمعات تعليمية شعبية لأي شخص لديه فهم عميق للقضايا الأساسية المحيطة بحقوق الإنسان الفلسطيني في المشاركة وتلقي المعرفة من المجتمع"
         src = "img/services/teach.jpg"
 
       [[Languages.ar.services.item]]
-        title = "Trainings"
-        subtitle = "In order to successfully push our movement forward, we share knowledge that we have learned about canvassing, petitioning, and outreach (to name a few) with new members and partners."
+        title = "دورات تدريبية"
+        subtitle = "من أجل دفع حركتنا إلى الأمام بنجاح ، نحن نشارك المعرفة التي تعلمناها حول الاستطلاعات ، والتظلم ، والتواصل (على سبيل المثال لا الحصر) مع أعضاء وشركاء جدد"
         src = "img/services/training.jpg"
 
       [[Languages.ar.services.item]]
-        title = "Lectures"
-        subtitle = "The strength of our organization is in our diversity of skills. Our core members have given lectures in a wide variety of spaces, including universities, churches, and art galleries."
+        title = "محاضرات"
+        subtitle = "قوة منظمتنا هي في تنوع مهاراتنا. لقد قدم أعضاؤنا الأساسيون محاضرات في مجموعة متنوعة من المساحات ، بما في ذلك الجامعات والكنائس والمعارض الفنية"
         src = "img/services/lecture.jpg"
 
       [[Languages.ar.services.item]]
-        title = "Events"
-        subtitle = "Sometimes we’ve got to switch it up. We host vigils, parties, and film screenings depending on the political climate and needs of the community."
+        title = "أحداث"
+        subtitle = "في بعض الأحيان ، يتعين علينا تبديلها. نستضيف الوقفات الاحتجاجية والحفلات والعروض السينمائية حسب المناخ السياسي واحتياجات المجتمع"
         src = "img/services/events.jpg"
 
       [[Languages.ar.services.item]]
-        title = "Direct Actions"
-        subtitle = "Resistance is our right. We utilize blockades, pickets, and demonstrations to force those otherwise unwilling to engage in dialogue to confront truth."
+        title = "الإجراءات المباشرة"
+        subtitle = "المقاومة حقنا. نحن نستخدم الحصار ، والاعتصامات ، والمظاهرات لإجبار أولئك غير المستعدين للدخول في حوار لمواجهة الحقيقة"
         src = "img/services/action.jpg"
 
       [[Languages.ar.services.item]]
-        title = "Community Meetings"
-        subtitle = "We hold open community meetings once a month for those interested in playing a direct role in Palestinian solidarity work in the Greater New Orleans area."
+        title = "اجتماعات المجتمع"
+        subtitle = "نحن نعقد اجتماعات المجتمع المفتوح مرة واحدة في الشهر لأولئك المهتمين بلعب دور مباشر في أعمال التضامن الفلسطيني في منطقة نيو أورليانز الكبرى"
         src = "img/services/community.jpg"
 
     [Languages.ar.history]
-      title = "NOPSC History"
+      title = "NOPSC تاريخ ال"
 
       [[Languages.ar.history.chapter]]
-        text = "NOPSC was chartered in July 2014 by a small group of people organizing an event called #AStreetcarNamedGaza. This event was comprised of a streetcar solidarity ride, candlelight vigil, and march through the French Quarter that ultimately drew hundreds of participants and media attention from several outlets. It is the goal of NOPSC to build upon this movement, continuing to incorporate New Orleans’ culture and history of resistance into efforts to amplify Palestinian voices."
+        text = "استأجرت ‫(NOPSC)‬ في يوليو ٢٠١٤ من قبل مجموعة صغيرة من الأشخاص الذين نظموا حدثًا يسمى‫(#AStreetcarNamedGaza)‬ . وقد تألّف هذا الحدث من رحلة تضامن في سيارات الشوارع ، والوقفة الاحتجاجية على ضوء الشموع ، ومسيرة عبر الحي الفرنسي الذي جذب في النهاية مئات المشاركين واهتمام وسائل الإعلام من عدة منافذ. إن هدف‫(NOPSC)‬هو البناء على هذه الحركة ، والاستمرار في دمج ثقافة نيو أورلينز وتاريخ المقاومة في الجهود الرامية إلى تضخيم الأصوات الفلسطينية"
         src = "img/history/history-1.jpg"
 
       [[Languages.ar.history.chapter]]
-        text = "In recognition of the gross human rights violations that have taken place at the expense of the Palestinian people for over seven decades, NOPSC’s top priority is to support both diasporic Palestinians, and those residing in Palestine itself. NOPSC recognizes that the institutions of power which perpetuate the continued occupation of Palestine are affected by the same hegemonic ideologies of racism and sexism that affect people of color, women, LGBTQ folks, the poor, the undocumented, and differently abled peoples everywhere."
+        text = "واعترافًا بالانتهاكات الجسيمة لحقوق الإنسان التي وقعت على حساب الشعب الفلسطيني لأكثر من سبعة عقود ، تتمثل الأولوية القصوى للجنة الوطنية العليا لشؤون اللاجئين في دعم كل من فلسطينيي الشتات ، والمقيمين في فلسطين نفسها. تدرك‫(NOPSC)‬أن مؤسسات السلطة التي تديم استمرار احتلال فلسطين تتأثر بنفس الإيديولوجيات المهيمنة للعنصرية والتمييز على أساس الجنس والتي تؤثر على الناس من اللون ، والنساء ، والناس المثليين ، والفقراء ، والشعوب غير الموثقة ، وذات الطبيعة المختلفة في كل مكان"
         src = "img/history/history-2.jpg"
 
       [[Languages.ar.history.chapter]]
-        text = "With this understanding, NOPSC is dedicated to an intersectional solidarity that does not leave room for bigotry or hate. The organizers of NOPSC recognize that systems of oppression are impressed upon everyone throughout society, and that overcoming these prejudices is an ongoing process. NOPSC welcomes all those willing to work together in the struggle toward equity for all people. Focusing on Palestine, NOPSC aims to build upon past work in New Orleans, namely the organizing efforts of NOLAPS, to catalyze an ongoing movement in this city in solidarity against oppression."
+        text = "مع هذا الفهم ، كرست ‫(NOPSC)‬ للتضامن المتقاطع الذي لا يترك مجالا للتعصب الأعمى أو الكراهية. يدرك منظمو ‫(NOPSC)‬ أن أنظمة القمع مبهرة على الجميع في المجتمع ، وأن التغلب على هذه التحيزات هو عملية مستمرة. ترحب ‫(NOPSC)‬ بكل أولئك المستعدين للعمل معاً في النضال من أجل العدالة لجميع الناس. مع التركيز على فلسطين ، تهدف ‫(NOPSC)‬ إلى البناء على العمل السابق في نيو أورلينز ، وبالتحديد جهود ‫(NOLAPS)‬ المنظمة ، لتحفيز حركة مستمرة في هذه المدينة للتضامن ضد القمع."
         src = "img/history/history-3.jpg"
 
     [Languages.ar.festival]
-      title = "NOPSC Film Festival"
+      title = "NOPSC مهرجان السينمائي ل"
       imgSrc = "img/festival/festival.jpg"
+
+
+        ## Human Rights Campaign
+
+    [[Languages.ar.menu.navbar]]
+      identifier = "human-rights"
+      url = "/human-rights"
+      name   = "Human Rights Campaign"
+      weight = 2
+
+    [[Languages.ar.menu.navbar]]
+      parent = "human-rights"
+      url = "/human-rights"
+      name   = "About"
+      weight = 2
+
+    [[Languages.ar.menu.navbar]]
+      parent = "human-rights"
+      url = "/human-rights/timeline"
+      name   = "Timeline"
+      weight = 3
+
+    [[Languages.ar.menu.navbar]]
+      parent = "human-rights"
+      url = "/human-rights/news"
+      name   = "In the News"
+      weight = 4
+
+    [[Languages.ar.menu.navbar]]
+      parent = "human-rights"
+      url = "/human-rights/statements"
+      name   = "Statements"
+      weight = 5
+
+    [[Languages.ar.menu.navbar]]
+      parent = "human-rights"
+      url = "/human-rights/resources"
+      name   = "Resources"
+      weight = 6
+
+    [Languages.ar.abouthumanrights]
+      title = "About the NOPSC Human Rights Campaign"
+      firstItemSrc = "/img/human-rights/about/humanrights-about-1.jpg"
