@@ -1,6 +1,6 @@
 <section name="news" class="text-xs-center news-section" style="background-color: red;" id="news">
   <div class="container-fluid">
     <h4 class="p-t-2" style="color: black;">{{ .news.title }}</h4>
-    <h6><a href="{{ .Site.BaseURL }}{{ .news.actionpath }}" class="btn btn-link btn-lg" style="color: white;">{{ .news.action }}</a></h6>
+    <h6><a href="{{ .news.actionpath }}" class="btn btn-link btn-lg" target="_blank" rel="noopener noreferrer" style="color: white;">{{ .news.action }}</a></h6>
   </div>
 </section>

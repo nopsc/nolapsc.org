@@ -15,13 +15,7 @@
         <img class="img-fluid img-circle img-issue m-x-auto" src="{{ $baseUrl }}{{ .src }}" />
         <h6 class="m-t-2 issue-title"><strong>{{ .title }}</strong></h6>
 
-        {{ if eq (mod $count 2) 0 }}
-          <hr class="underline underline-success"/>
-        {{ end }}
-
-        {{ if eq (mod $count 2) 1 }}
-          <hr class="underline underline-success"/>
-        {{ end }}
+          <hr class="underline-success"/>
 
         <p>{{ .subtitle }}</p>
       </div>
